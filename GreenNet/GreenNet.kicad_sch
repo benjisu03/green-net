@@ -164,6 +164,44 @@
 		)
 	)
 	(sheet
+		(at 64.135 101.6)
+		(size 18.415 14.605)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25a95746-0a87-4e99-99e5-3474e5066d9d")
+		(property "Sheetname" "Power"
+			(at 64.135 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 64.135 116.7896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GreenNet"
+				(path "/189669a5-f2fc-4cde-9413-8df80c557655"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 64.135 62.865)
 		(size 18.415 23.495)
 		(fields_autoplaced yes)
