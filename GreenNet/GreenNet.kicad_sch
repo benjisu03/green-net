@@ -1,0 +1,149 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "189669a5-f2fc-4cde-9413-8df80c557655")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 82.55 67.31) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912847f9-975b-4264-b88f-8048448fb0fa")
+	)
+	(wire
+		(pts
+			(xy 82.55 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ecda06-e550-4e25-b3e3-a46d5c4e8208")
+	)
+	(sheet
+		(at 107.95 62.865)
+		(size 40.64 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ddc2f42-49d8-44b8-acf8-7a4221ab2b02")
+		(property "Sheetname" "Microcontroller"
+			(at 107.95 62.1534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 107.95 93.9296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 107.95 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6751428-2ce9-4466-b0a7-e6bebc642157")
+		)
+		(pin "USB_D-" bidirectional
+			(at 107.95 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4387c212-0299-415a-9dba-990c869941f2")
+		)
+		(instances
+			(project "GreenNet"
+				(path "/189669a5-f2fc-4cde-9413-8df80c557655"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 62.865)
+		(size 41.91 33.655)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bb1724a-9783-4669-873d-86bb73735874")
+		(property "Sheetname" "Input"
+			(at 40.64 62.1534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input.kicad_sch"
+			(at 40.64 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 82.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0155335-b79c-4c7a-b015-3889bf40128e")
+		)
+		(pin "USB_D+" bidirectional
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5c66fe0-3928-4943-a51b-1140077b7406")
+		)
+		(instances
+			(project "GreenNet"
+				(path "/189669a5-f2fc-4cde-9413-8df80c557655"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
