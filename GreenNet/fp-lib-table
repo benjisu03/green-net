@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "AA_Connectors")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Connectors.pretty")(options "")(descr ""))
   (lib (name "AA_MCUs")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_MCUs.pretty")(options "")(descr ""))
+  (lib (name "AA_TestPoints")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_TestPoints.pretty")(options "")(descr ""))
 )

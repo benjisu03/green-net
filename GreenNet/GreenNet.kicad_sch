@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 82.55 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae34496-662b-4370-b1dc-b00f857d1090")
+	)
+	(wire
+		(pts
 			(xy 82.55 67.31) (xy 107.95 67.31)
 		)
 		(stroke
@@ -14,6 +24,36 @@
 			(type default)
 		)
 		(uuid "912847f9-975b-4264-b88f-8048448fb0fa")
+	)
+	(wire
+		(pts
+			(xy 82.55 82.55) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4399d6-c77e-49ee-84e9-cc8f8e034c64")
+	)
+	(wire
+		(pts
+			(xy 82.55 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20c6510-155a-454f-919e-7eb6635503d0")
+	)
+	(wire
+		(pts
+			(xy 82.55 77.47) (xy 107.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6846e0e-09b3-4ebd-8a59-ab2190915b7c")
 	)
 	(wire
 		(pts
@@ -27,7 +67,7 @@
 	)
 	(sheet
 		(at 107.95 62.865)
-		(size 40.64 30.48)
+		(size 16.51 23.495)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -47,7 +87,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 107.95 93.9296 0)
+			(at 107.95 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75,6 +115,46 @@
 			)
 			(uuid "4387c212-0299-415a-9dba-990c869941f2")
 		)
+		(pin "UART_~{RTS}" input
+			(at 107.95 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "211f94e7-5cb5-4076-8b9d-577be42bb67d")
+		)
+		(pin "UART_RXD" input
+			(at 107.95 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8655210-a74c-4777-bcf0-7820021f0ed4")
+		)
+		(pin "UART_TXD" output
+			(at 107.95 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54d86b8d-55a7-4aa7-a873-c9fccb0b406a")
+		)
+		(pin "UART_~{DTR}" input
+			(at 107.95 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f885a5b4-f1dd-45c1-bf71-808f515ef93a")
+		)
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655"
@@ -84,8 +164,8 @@
 		)
 	)
 	(sheet
-		(at 40.64 62.865)
-		(size 41.91 33.655)
+		(at 64.135 62.865)
+		(size 18.415 23.495)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -96,7 +176,7 @@
 		)
 		(uuid "3bb1724a-9783-4669-873d-86bb73735874")
 		(property "Sheetname" "Input"
-			(at 40.64 62.1534 0)
+			(at 64.135 62.1534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105,7 +185,7 @@
 			)
 		)
 		(property "Sheetfile" "input.kicad_sch"
-			(at 40.64 97.1046 0)
+			(at 64.135 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,6 +212,46 @@
 				(justify right)
 			)
 			(uuid "d5c66fe0-3928-4943-a51b-1140077b7406")
+		)
+		(pin "UART_RXD" input
+			(at 82.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "81061426-db75-474c-acef-ee43456b25b6")
+		)
+		(pin "UART_~{RTS}" output
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "073a182a-9131-4e28-8cad-08d41e02045b")
+		)
+		(pin "UART_~{DTR}" output
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7304dcd-afec-44b8-bbb0-65c63c470e64")
+		)
+		(pin "UART_TXD" output
+			(at 82.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43935217-03e9-4bc9-9762-3f7a730da8d5")
 		)
 		(instances
 			(project "GreenNet"
