@@ -3128,163 +3128,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_TVS_Filled"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS_Filled"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_Filled_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_TVS_Filled_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:D_Zener_Filled"
 			(pin_numbers hide)
 			(pin_names
@@ -3430,7 +3273,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
+		(symbol "Device:LED_Filled"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -3445,7 +3288,7 @@
 					)
 				)
 			)
-			(property "Value" "LED"
+			(property "Value" "LED_Filled"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -3471,7 +3314,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "Light emitting diode, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3498,7 +3341,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED_Filled_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -3532,7 +3375,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -3560,7 +3403,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED_Filled_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5157,7 +5000,7 @@
 		)
 	)
 	(junction
-		(at 137.16 111.76)
+		(at 133.35 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "004572ef-48ed-4158-8f33-f4e92d7209c0")
@@ -5265,7 +5108,7 @@
 		(uuid "75c8296d-6ffe-4690-b580-b03a53591437")
 	)
 	(junction
-		(at 135.89 116.84)
+		(at 132.08 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79b81471-9540-4329-9f2b-5cef50c85ad1")
@@ -5415,19 +5258,19 @@
 		(uuid "f9f6c81f-83a3-4b29-a200-e778c48e4e89")
 	)
 	(no_connect
-		(at 176.53 142.24)
+		(at 172.72 142.24)
 		(uuid "016e951c-7fcf-41cf-8b8c-027a20cbad70")
 	)
 	(no_connect
-		(at 176.53 132.08)
+		(at 172.72 132.08)
 		(uuid "02893d04-331a-4f04-b88d-48b97a2e7102")
 	)
 	(no_connect
-		(at 176.53 147.32)
+		(at 172.72 147.32)
 		(uuid "165bfa6f-b73c-4dde-8d37-20ddeefdfe04")
 	)
 	(no_connect
-		(at 138.43 143.51)
+		(at 134.62 143.51)
 		(uuid "3f96ab46-576b-4206-a048-ed028ffa2824")
 	)
 	(no_connect
@@ -5435,7 +5278,7 @@
 		(uuid "4f60c537-d730-4820-9a40-8dfd3010a1e5")
 	)
 	(no_connect
-		(at 176.53 124.46)
+		(at 172.72 124.46)
 		(uuid "55805a85-f100-42c4-99e4-c72718591047")
 	)
 	(no_connect
@@ -5451,15 +5294,15 @@
 		(uuid "873816aa-e7ea-4dea-94aa-71d88b7b4e48")
 	)
 	(no_connect
-		(at 176.53 144.78)
+		(at 172.72 144.78)
 		(uuid "8fcdf591-4742-4624-b222-014f3df7c818")
 	)
 	(no_connect
-		(at 176.53 127)
+		(at 172.72 127)
 		(uuid "9191da6c-276e-46b6-9532-b41f59323c5a")
 	)
 	(no_connect
-		(at 176.53 129.54)
+		(at 172.72 129.54)
 		(uuid "91b8e701-21e6-4fd8-894a-cc04e63a412a")
 	)
 	(no_connect
@@ -5467,11 +5310,11 @@
 		(uuid "92bab37a-d266-492a-a3e2-cd970d6ec7c9")
 	)
 	(no_connect
-		(at 138.43 151.13)
+		(at 134.62 151.13)
 		(uuid "98c5a2cc-6101-4084-83ce-26657ae013d0")
 	)
 	(no_connect
-		(at 138.43 140.97)
+		(at 134.62 140.97)
 		(uuid "9ea7733b-c136-42a7-a48d-d8399e35e245")
 	)
 	(no_connect
@@ -5479,15 +5322,15 @@
 		(uuid "a8d6bb46-f719-4e9f-aab0-711317f05e73")
 	)
 	(no_connect
-		(at 176.53 152.4)
+		(at 172.72 152.4)
 		(uuid "ba0ce233-0211-4b40-b7fe-2d085ac3671c")
 	)
 	(no_connect
-		(at 138.43 146.05)
+		(at 134.62 146.05)
 		(uuid "cbee11dc-edf5-4033-a89c-a17933a756f5")
 	)
 	(no_connect
-		(at 176.53 149.86)
+		(at 172.72 149.86)
 		(uuid "e9d59327-e9b6-4f78-8e05-66f112913501")
 	)
 	(no_connect
@@ -5606,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 116.84) (xy 135.89 125.73)
+			(xy 132.08 116.84) (xy 132.08 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5736,7 +5579,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 158.75) (xy 157.48 160.02)
+			(xy 153.67 158.75) (xy 153.67 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5916,7 +5759,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 119.38) (xy 187.96 119.38)
+			(xy 172.72 119.38) (xy 184.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5976,7 +5819,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 114.3) (xy 187.96 114.3)
+			(xy 172.72 114.3) (xy 184.15 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6066,7 +5909,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 116.84) (xy 135.89 116.84)
+			(xy 118.11 116.84) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6166,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 137.16) (xy 181.61 137.16)
+			(xy 172.72 137.16) (xy 177.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6216,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 134.62) (xy 135.89 134.62)
+			(xy 134.62 134.62) (xy 132.08 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6286,7 +6129,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 139.7) (xy 181.61 139.7)
+			(xy 172.72 139.7) (xy 177.8 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6346,7 +6189,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 134.62) (xy 135.89 133.35)
+			(xy 132.08 134.62) (xy 132.08 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6406,7 +6249,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 138.43 121.92)
+			(xy 118.11 121.92) (xy 134.62 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6836,7 +6679,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 138.43 111.76)
+			(xy 133.35 111.76) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7256,7 +7099,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 114.3) (xy 138.43 114.3)
+			(xy 133.35 114.3) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7306,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 137.16 114.3)
+			(xy 133.35 111.76) (xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7396,7 +7239,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 153.67) (xy 138.43 153.67)
+			(xy 124.46 153.67) (xy 134.62 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7756,7 +7599,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 116.84) (xy 138.43 116.84)
+			(xy 132.08 116.84) (xy 134.62 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7766,7 +7609,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 124.46) (xy 138.43 124.46)
+			(xy 118.11 124.46) (xy 134.62 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8076,7 +7919,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 116.84) (xy 187.96 116.84)
+			(xy 172.72 116.84) (xy 184.15 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8146,7 +7989,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 111.76) (xy 187.96 111.76)
+			(xy 172.72 111.76) (xy 184.15 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8376,7 +8219,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 110.49) (xy 137.16 111.76)
+			(xy 133.35 110.49) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8586,7 +8429,7 @@
 	)
 	(rectangle
 		(start 12.065 165.735)
-		(end 89.535 198.12)
+		(end 90.17 198.12)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -8651,6 +8494,16 @@
 		)
 		(uuid "2c296e99-433a-4fbf-9c48-978fcdc2031c")
 	)
+	(text "USB to UART"
+		(exclude_from_sim no)
+		(at 151.892 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30703513-10ba-478d-8171-1f342f7ecf93")
+	)
 	(text "Connected Indicator"
 		(exclude_from_sim no)
 		(at 129.54 99.314 0)
@@ -8702,6 +8555,16 @@
 			)
 		)
 		(uuid "60452fc9-5e85-40c9-94b5-68c2cdf1e150")
+	)
+	(text "USB Power Delivery Controller"
+		(exclude_from_sim no)
+		(at 183.134 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66651304-8bdc-42bb-8114-a97f91802b1a")
 	)
 	(text "Decoupling"
 		(exclude_from_sim no)
@@ -9011,7 +8874,7 @@
 		(uuid "15189ce2-c31a-4dee-9278-d097d91ed456")
 	)
 	(label "UART_VDD"
-		(at 121.92 116.84 0)
+		(at 118.11 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9044,7 +8907,7 @@
 		(uuid "1babf200-f7fc-4d04-934b-c4cf3ee67c73")
 	)
 	(label "UART_~{DTR}"
-		(at 187.96 119.38 180)
+		(at 184.15 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9363,7 +9226,7 @@
 		(uuid "6f30c08b-c9c0-41f0-be17-6afe09e2838c")
 	)
 	(label "USB_UART_D+"
-		(at 121.92 124.46 0)
+		(at 118.11 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9385,7 +9248,7 @@
 		(uuid "75dca756-35d6-4d05-8542-2a9212340d46")
 	)
 	(label "UART_TXD"
-		(at 187.96 111.76 180)
+		(at 184.15 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9528,7 +9391,7 @@
 		(uuid "a176a4ab-be65-470b-a315-1d2bf8928667")
 	)
 	(label "USB_UART_D-"
-		(at 121.92 121.92 0)
+		(at 118.11 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9572,7 +9435,7 @@
 		(uuid "a4445193-1f38-4716-9a25-70fdf26d84f4")
 	)
 	(label "RXT"
-		(at 181.61 139.7 180)
+		(at 177.8 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9671,7 +9534,7 @@
 		(uuid "ba6eb763-1cb5-49f3-9e10-9ead19b760f4")
 	)
 	(label "TXT"
-		(at 181.61 137.16 180)
+		(at 177.8 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9704,7 +9567,7 @@
 		(uuid "c0ef3843-3908-4790-994a-34f6d820b296")
 	)
 	(label "~{SUSPEND}"
-		(at 128.27 153.67 0)
+		(at 124.46 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9748,7 +9611,7 @@
 		(uuid "c87d18ad-d7ed-4257-92e6-63e55e920487")
 	)
 	(label "UART_~{RTS}"
-		(at 187.96 116.84 180)
+		(at 184.15 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9759,7 +9622,7 @@
 		(uuid "cb1ef5ff-d119-4864-a4ea-40b0ba4c8232")
 	)
 	(label "UART_RXD"
-		(at 187.96 114.3 180)
+		(at 184.15 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10101,7 +9964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 261.62 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10145,7 +10008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, filled shape"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -10496,7 +10359,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 215.9 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10540,7 +10403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, filled shape"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -11035,7 +10898,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 160.02 0)
+		(at 153.67 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11043,7 +10906,7 @@
 		(dnp no)
 		(uuid "1f24607a-240e-487c-9d33-a3868b035a07")
 		(property "Reference" "#PWR016"
-			(at 157.48 166.37 0)
+			(at 153.67 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +10915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 163.83 0)
+			(at 153.67 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11060,7 +10923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 160.02 0)
+			(at 153.67 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11069,7 +10932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 160.02 0)
+			(at 153.67 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,7 +10941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 160.02 0)
+			(at 153.67 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,7 +11100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 215.9 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11281,7 +11144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, filled shape"
 			(at 215.9 119.38 0)
 			(effects
 				(font
@@ -11703,7 +11566,7 @@
 	)
 	(symbol
 		(lib_id "Interface_USB:CP2102N-Axx-xQFN28")
-		(at 157.48 132.08 0)
+		(at 153.67 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11711,7 +11574,7 @@
 		(dnp no)
 		(uuid "390bbf2c-a244-400b-a0a6-46059d457632")
 		(property "Reference" "U4"
-			(at 159.6741 157.48 0)
+			(at 155.8641 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +11583,7 @@
 			)
 		)
 		(property "Value" "CP2102N-A02-GQFN28"
-			(at 146.304 107.696 0)
+			(at 142.494 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +11592,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
-			(at 206.248 171.45 0)
+			(at 202.438 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,7 +11601,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"
-			(at 213.868 173.482 0)
+			(at 210.058 173.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +11610,7 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-28"
-			(at 178.562 99.314 0)
+			(at 174.752 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12031,8 +11894,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 57.15 83.82 90)
+		(lib_id "Device:D_Zener_Filled")
+		(at 57.15 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12040,7 +11903,7 @@
 		(dnp no)
 		(uuid "399fdf9f-1c4b-4b2e-be69-a71419227dbe")
 		(property "Reference" "D1"
-			(at 54.356 87.63 90)
+			(at 60.198 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12049,7 +11912,7 @@
 			)
 		)
 		(property "Value" "D5V0M1U2S9"
-			(at 57.912 90.932 90)
+			(at 70.358 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,7 +11920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AA_Diodes:D5V0M1U2S9Q"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -12075,7 +11938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+		(property "Description" "Zener diode, filled shape"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -12165,7 +12028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 138.43 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12209,7 +12072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, filled shape"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -12370,7 +12233,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 137.16 110.49 0)
+		(at 133.35 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12378,7 +12241,7 @@
 		(dnp no)
 		(uuid "4abec449-7794-49ea-9057-b56c822f392c")
 		(property "Reference" "#PWR017"
-			(at 137.16 114.3 0)
+			(at 133.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +12250,7 @@
 			)
 		)
 		(property "Value" "VUART"
-			(at 137.16 106.68 0)
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 110.49 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,7 +12267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 110.49 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 137.16 110.49 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +12366,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 107.95 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12547,7 +12410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, filled shape"
 			(at 107.95 157.48 0)
 			(effects
 				(font
@@ -12707,8 +12570,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 63.5 83.82 90)
+		(lib_id "Device:D_Zener_Filled")
+		(at 63.5 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12716,7 +12579,7 @@
 		(dnp no)
 		(uuid "5569664d-06c0-4aa4-b207-d8d0a6d6d295")
 		(property "Reference" "D10"
-			(at 59.436 87.63 90)
+			(at 67.818 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,8 +12587,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS_Filled"
-			(at 66.04 85.0899 90)
+		(property "Value" "D5V0M1U2S9"
+			(at 60.96 82.5501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +12597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AA_Diodes:D5V0M1U2S9Q"
 			(at 63.5 83.82 0)
 			(effects
 				(font
@@ -12752,7 +12615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+		(property "Description" "Zener diode, filled shape"
 			(at 63.5 83.82 0)
 			(effects
 				(font
@@ -13243,8 +13106,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 68.58 143.51 90)
+		(lib_id "Device:D_Zener_Filled")
+		(at 68.58 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13252,7 +13115,7 @@
 		(dnp no)
 		(uuid "6a7d1529-41a0-49c5-abdb-bb1f2dd88ac7")
 		(property "Reference" "D2"
-			(at 65.532 147.32 90)
+			(at 71.628 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13261,7 +13124,7 @@
 			)
 		)
 		(property "Value" "D5V0M1U2S9"
-			(at 69.088 150.368 90)
+			(at 82.296 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13269,7 +13132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AA_Diodes:D5V0M1U2S9Q"
 			(at 68.58 143.51 0)
 			(effects
 				(font
@@ -13287,7 +13150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+		(property "Description" "Zener diode, filled shape"
 			(at 68.58 143.51 0)
 			(effects
 				(font
@@ -13716,8 +13579,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 81.28 143.51 90)
+		(lib_id "Device:D_Zener_Filled")
+		(at 81.28 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13725,7 +13588,7 @@
 		(dnp no)
 		(uuid "74ee02da-e221-4cf4-a784-c521050bbb40")
 		(property "Reference" "D4"
-			(at 78.232 147.32 90)
+			(at 84.328 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,8 +13596,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS_Filled"
-			(at 83.82 144.7799 90)
+		(property "Value" "D5V0M1U2S9"
+			(at 78.74 142.2401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,7 +13606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AA_Diodes:D5V0M1U2S9Q"
 			(at 81.28 143.51 0)
 			(effects
 				(font
@@ -13761,7 +13624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+		(property "Description" "Zener diode, filled shape"
 			(at 81.28 143.51 0)
 			(effects
 				(font
@@ -13953,7 +13816,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 135.89 129.54 0)
+		(at 132.08 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13961,7 +13824,7 @@
 		(dnp no)
 		(uuid "7e399bee-0129-4ab0-b78d-6dbd70ad0010")
 		(property "Reference" "R6"
-			(at 137.16 128.27 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13970,7 +13833,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 137.16 130.302 0)
+			(at 133.35 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13979,7 +13842,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 136.906 129.794 90)
+			(at 133.096 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13988,7 +13851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 129.54 0)
+			(at 132.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13997,7 +13860,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 135.89 129.54 0)
+			(at 132.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14826,8 +14689,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 74.93 143.51 90)
+		(lib_id "Device:D_Zener_Filled")
+		(at 74.93 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14835,7 +14698,7 @@
 		(dnp no)
 		(uuid "9c50c64e-e57e-4846-9c5b-f41ef7e9a288")
 		(property "Reference" "D3"
-			(at 71.882 147.32 90)
+			(at 77.978 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14843,8 +14706,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS_Filled"
-			(at 77.47 144.7799 90)
+		(property "Value" "D5V0M1U2S9"
+			(at 72.39 142.2401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14853,7 +14716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AA_Diodes:D5V0M1U2S9Q"
 			(at 74.93 143.51 0)
 			(effects
 				(font
@@ -14871,7 +14734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+		(property "Description" "Zener diode, filled shape"
 			(at 74.93 143.51 0)
 			(effects
 				(font
@@ -15782,7 +15645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Device:LED_Filled")
 		(at 213.36 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15826,7 +15689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, filled shape"
 			(at 213.36 132.08 0)
 			(effects
 				(font

@@ -1304,7 +1304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X100-25N-D"
+		(property "Footprint" "QFN:QFN50P400X400X100-25N-D"
 			(at 156.464 73.406 0)
 			(effects
 				(font

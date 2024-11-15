@@ -66,26 +66,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -10 -5.26)
-		(end -10 -5.26)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ef1b3681-cf22-4960-9d32-fc50afd5aef3")
-	)
-	(fp_line
-		(start -9.9 -5.26)
-		(end -9.9 -5.26)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fd18c553-19d1-4955-8a08-490827fc5230")
-	)
-	(fp_line
 		(start -9 -12.75)
 		(end 9 -12.75)
 		(stroke
@@ -115,27 +95,16 @@
 		(layer "F.SilkS")
 		(uuid "d6735bb2-b1ef-436a-b47a-eee5293e850a")
 	)
-	(fp_arc
-		(start -10 -5.26)
-		(mid -9.95 -5.31)
-		(end -9.9 -5.26)
+	(fp_circle
+		(center -10 -5.25)
+		(end -9.646447 -5.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "05a24063-4b2f-4107-9797-10dd279635a9")
-	)
-	(fp_arc
-		(start -9.9 -5.26)
-		(mid -9.95 -5.21)
-		(end -10 -5.26)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "79daabb0-53a8-4168-90aa-c268e0099111")
+		(uuid "ab480128-e8c1-4e82-8f1d-7d0487397d9f")
 	)
 	(fp_line
 		(start -10.5 -13.75)
@@ -528,7 +497,7 @@
 		(layers "*.Cu")
 		(uuid "7e6606f0-c181-41fb-b179-78044c9ec89b")
 		(name "KeepOut")
-		(hatch edge 0.5)
+		(hatch full 0.5)
 		(connect_pads
 			(clearance 0)
 		)
