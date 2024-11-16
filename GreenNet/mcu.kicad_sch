@@ -2131,13 +2131,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 80.01) (xy 39.37 80.01)
+			(xy 33.02 80.01) (xy 46.99 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "073df090-a042-40f5-8e0c-4cae3399f7a8")
+	)
+	(wire
+		(pts
+			(xy 46.99 97.79) (xy 33.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d95659a-abdb-428e-98ab-a35a9233e088")
 	)
 	(wire
 		(pts
@@ -2241,6 +2251,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 105.41) (xy 46.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd07d0a-04af-4785-9ba7-7bf745dfc565")
+	)
+	(wire
+		(pts
 			(xy 19.05 44.45) (xy 19.05 43.18)
 		)
 		(stroke
@@ -2271,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 92.71) (xy 25.4 92.71)
+			(xy 46.99 92.71) (xy 33.02 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 77.47) (xy 39.37 77.47)
+			(xy 33.02 77.47) (xy 46.99 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2491,7 +2511,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 90.17) (xy 25.4 90.17)
+			(xy 46.99 102.87) (xy 33.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ef1cf6-c385-4982-b3bf-a7290553c2fb")
+	)
+	(wire
+		(pts
+			(xy 46.99 90.17) (xy 33.02 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2508,6 +2538,16 @@
 			(type default)
 		)
 		(uuid "d5bcb783-894d-4fcf-a894-a3b7af3bdcba")
+	)
+	(wire
+		(pts
+			(xy 46.99 100.33) (xy 33.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89552ff-9d44-4195-8503-85d877d00720")
 	)
 	(wire
 		(pts
@@ -2561,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 85.09) (xy 25.4 85.09)
+			(xy 46.99 85.09) (xy 33.02 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2571,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 87.63) (xy 25.4 87.63)
+			(xy 46.99 87.63) (xy 33.02 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2640,7 +2680,7 @@
 		(uuid "fb51051b-16b6-46aa-befe-eb25be09c55b")
 	)
 	(label "UART_~{RTS}"
-		(at 39.37 90.17 180)
+		(at 46.99 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2651,7 +2691,7 @@
 		(uuid "0773fce2-6def-4a2c-b70a-e482c3df7643")
 	)
 	(label "S3_TXD0"
-		(at 39.37 85.09 180)
+		(at 46.99 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2671,6 +2711,17 @@
 			(justify right bottom)
 		)
 		(uuid "12a35e4d-a1d9-46ec-8f12-aa52b35bfb1f")
+	)
+	(label "USB_PD_GPIO"
+		(at 46.99 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ac8fad3-0f9c-48c2-ad9b-a7abd450df75")
 	)
 	(label "S3_RXD0"
 		(at 227.33 88.9 180)
@@ -2738,6 +2789,17 @@
 		)
 		(uuid "4c7954d7-9c18-4623-97f6-9f3d892976cb")
 	)
+	(label "USB_PD_SCL"
+		(at 152.4 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d3ef32a-7888-4bdc-8610-d4d22ddd0a0b")
+	)
 	(label "UART_~{DTR}"
 		(at 76.2 146.05 0)
 		(fields_autoplaced yes)
@@ -2748,6 +2810,17 @@
 			(justify left bottom)
 		)
 		(uuid "504b22fe-9a8d-4b2b-88bc-62b77101d989")
+	)
+	(label "USB_PD_SCL"
+		(at 46.99 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6707f329-a85d-4deb-bde9-cac35452a8c6")
 	)
 	(label "S3_EN_RST"
 		(at 156.21 48.26 0)
@@ -2761,7 +2834,7 @@
 		(uuid "68502574-1108-4193-9179-21ccf6ecaa24")
 	)
 	(label "UART_~{DTR}"
-		(at 39.37 92.71 180)
+		(at 46.99 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2771,8 +2844,19 @@
 		)
 		(uuid "73a38593-59d0-46a9-8d95-fedb52d91905")
 	)
+	(label "USB_PD_SDA"
+		(at 152.4 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7466ba23-a5f4-4643-abc6-cd8071dbe42c")
+	)
 	(label "S3_RXD0"
-		(at 39.37 87.63 180)
+		(at 46.99 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2781,6 +2865,28 @@
 			(justify right bottom)
 		)
 		(uuid "8afb08d4-43d1-4922-8f21-a441a3097262")
+	)
+	(label "USB_PD_INT"
+		(at 152.4 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d4f4c29-cef5-4b9f-8818-080d5ff33ddb")
+	)
+	(label "USB_PD_GPIO"
+		(at 152.4 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96d034d2-a3e4-4bbf-8459-2fffc852ea2d")
 	)
 	(label "S3_EN_RST"
 		(at 39.37 133.35 180)
@@ -2793,6 +2899,17 @@
 		)
 		(uuid "a27bad37-b53e-4cae-8568-f7598b50de92")
 	)
+	(label "USB_PD_SDA"
+		(at 46.99 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b32fc3f4-593f-450d-ac74-6b31b4125d8f")
+	)
 	(label "S3_BOOT"
 		(at 121.92 152.4 180)
 		(fields_autoplaced yes)
@@ -2803,6 +2920,17 @@
 			(justify right bottom)
 		)
 		(uuid "b68fd0f5-dea7-4787-8fdf-f58e5504fed6")
+	)
+	(label "USB_PD_INT"
+		(at 46.99 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4891722-c6c8-44d6-997e-627087f1abca")
 	)
 	(label "UART_~{RTS}"
 		(at 76.2 129.54 0)
@@ -2816,7 +2944,7 @@
 		(uuid "c4f09b9d-8537-4618-a293-548485c951f2")
 	)
 	(label "S3_USB_D+"
-		(at 39.37 80.01 180)
+		(at 46.99 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2838,7 +2966,7 @@
 		(uuid "ede23024-7aaf-494b-949f-acc313034334")
 	)
 	(label "S3_USB_D-"
-		(at 39.37 77.47 180)
+		(at 46.99 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2850,7 +2978,7 @@
 	)
 	(hierarchical_label "UART_~{DTR}"
 		(shape input)
-		(at 25.4 92.71 180)
+		(at 33.02 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2864,7 +2992,7 @@
 	)
 	(hierarchical_label "UART_~{RTS}"
 		(shape input)
-		(at 25.4 90.17 180)
+		(at 33.02 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2876,9 +3004,22 @@
 		)
 		(uuid "3aaa8359-5b4b-4a2e-b904-5dd975b9b1d5")
 	)
+	(hierarchical_label "USB_PD_GPIO"
+		(shape bidirectional)
+		(at 33.02 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "4975323f-82cf-4d79-aa2c-04c65cc4a47b")
+	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
-		(at 25.4 80.01 180)
+		(at 33.02 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2889,9 +3030,22 @@
 		)
 		(uuid "4d8219bf-8121-47ed-9af7-edd0e0d30967")
 	)
+	(hierarchical_label "USB_PD_INT"
+		(shape input)
+		(at 33.02 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "53bb6de6-4b5b-4e6e-8e33-a144977d87db")
+	)
 	(hierarchical_label "UART_RXD"
 		(shape input)
-		(at 25.4 87.63 180)
+		(at 33.02 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2903,9 +3057,22 @@
 		)
 		(uuid "685968b5-ce68-4ac5-be24-3294e05c6010")
 	)
+	(hierarchical_label "USB_PD_SDA"
+		(shape bidirectional)
+		(at 33.02 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "8bcb3bc7-b3ab-4544-8675-a27526976814")
+	)
 	(hierarchical_label "UART_TXD"
 		(shape output)
-		(at 25.4 85.09 180)
+		(at 33.02 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2919,7 +3086,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
-		(at 25.4 77.47 180)
+		(at 33.02 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2929,6 +3096,19 @@
 			(justify right)
 		)
 		(uuid "c4b6cf96-2c84-4d15-a31f-82e964baec73")
+	)
+	(hierarchical_label "USB_PD_SCL"
+		(shape bidirectional)
+		(at 33.02 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "ebf4a7f9-6e39-4580-83f2-8572fb5013fa")
 	)
 	(symbol
 		(lib_id "AA_MCUs:ESP32-S3-WROOM-1-N16R2")
@@ -3417,7 +3597,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4db75991-23d1-44f5-9195-728ef82e560a")
 		(property "Reference" "Q1"
 			(at 111.76 128.2699 0)
@@ -3455,13 +3634,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 106.68 129.54 0)
+		(property "Description" "MMDT3904"
+			(at 116.84 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "NPN"

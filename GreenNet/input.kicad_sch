@@ -5066,12 +5066,6 @@
 		(uuid "4c60ecdd-e2d4-480e-aa3c-c4d8c1c6a6ad")
 	)
 	(junction
-		(at 74.93 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59d9d2dc-dae3-4ac1-b4b9-31aec27f9927")
-	)
-	(junction
 		(at 269.24 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5238,12 +5232,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecbf4815-d09b-48cc-9de9-bf3b078d0722")
-	)
-	(junction
-		(at 105.41 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2792aab-99ef-493a-a610-8a8a4838f38d")
 	)
 	(junction
 		(at 96.52 133.35)
@@ -5519,7 +5507,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 162.56) (xy 264.16 162.56)
+			(xy 264.16 162.56) (xy 278.13 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5639,7 +5627,7 @@
 	)
 	(polyline
 		(pts
-			(xy 112.395 38.735) (xy 112.395 78.105)
+			(xy 112.395 39.37) (xy 112.395 78.105)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5657,7 @@
 	)
 	(polyline
 		(pts
-			(xy 71.755 38.735) (xy 71.755 82.55)
+			(xy 71.755 39.37) (xy 71.755 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5786,16 +5774,6 @@
 			(type default)
 		)
 		(uuid "205d9c6f-2c08-4685-a6e9-26dab7d7ea19")
-	)
-	(wire
-		(pts
-			(xy 250.19 143.51) (xy 260.35 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2256a1ac-a7b3-4794-94d8-5c1d88159acc")
 	)
 	(wire
 		(pts
@@ -6109,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 162.56) (xy 278.13 162.56)
+			(xy 250.19 149.86) (xy 260.35 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6179,7 +6157,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 162.56) (xy 278.13 161.29)
+			(xy 260.35 149.86) (xy 260.35 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6199,7 +6177,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 149.86) (xy 260.35 149.86)
+			(xy 250.19 143.51) (xy 260.35 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6309,7 +6287,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 149.86) (xy 260.35 148.59)
+			(xy 260.35 143.51) (xy 260.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6356,16 +6334,6 @@
 			(type default)
 		)
 		(uuid "54397180-6c27-4bf0-a6e1-6d0e74d63e97")
-	)
-	(wire
-		(pts
-			(xy 105.41 58.42) (xy 105.41 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a846fc-237c-4248-a5e6-21b854a1b902")
 	)
 	(wire
 		(pts
@@ -6496,16 +6464,6 @@
 			(type default)
 		)
 		(uuid "61b77ec5-a40d-44d0-9422-24f3717cbc7b")
-	)
-	(wire
-		(pts
-			(xy 260.35 143.51) (xy 260.35 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6380d4d8-08af-4421-98b9-c5be2d1a1093")
 	)
 	(wire
 		(pts
@@ -7369,7 +7327,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 162.56) (xy 264.16 161.29)
+			(xy 278.13 162.56) (xy 278.13 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7719,16 +7677,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 156.21) (xy 261.62 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce39eeea-85e6-49ce-ba98-7da2080fcfd6")
-	)
-	(wire
-		(pts
 			(xy 278.13 149.86) (xy 278.13 148.59)
 		)
 		(stroke
@@ -7956,16 +7904,6 @@
 			(type default)
 		)
 		(uuid "de037141-7411-4569-8a3c-547fc57d63d8")
-	)
-	(wire
-		(pts
-			(xy 74.93 58.42) (xy 74.93 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0f23c2-61fc-4cef-b2ea-39356360b37b")
 	)
 	(wire
 		(pts
@@ -8276,16 +8214,6 @@
 			(type default)
 		)
 		(uuid "fa6ca253-e7e8-4e15-beee-7562a416b894")
-	)
-	(wire
-		(pts
-			(xy 250.19 156.21) (xy 261.62 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa6b21b-57b1-4767-ac5d-2ba521662717")
 	)
 	(wire
 		(pts
@@ -9050,7 +8978,7 @@
 		(uuid "40ed5e22-8d5b-4dbd-8fc6-5df96dd1edc4")
 	)
 	(label "VBUS_MAX"
-		(at 250.19 149.86 0)
+		(at 250.19 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9149,7 +9077,7 @@
 		(uuid "66011536-1381-49ed-8335-8ee53f00a0c3")
 	)
 	(label "USB_GPIO"
-		(at 267.97 162.56 0)
+		(at 250.19 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9169,17 +9097,6 @@
 			(justify left bottom)
 		)
 		(uuid "6c096e22-7daf-47f9-a619-ae0ae820f1ec")
-	)
-	(label "ISINK_FINE"
-		(at 250.19 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d1fe065-01da-40c4-81da-df653130035c")
 	)
 	(label "SAFE_PWR_EN"
 		(at 231.14 163.83 0)
@@ -9555,17 +9472,6 @@
 		)
 		(uuid "beb4482f-cbd8-4fcf-be08-310832eaec04")
 	)
-	(label "VBUS_MIN"
-		(at 250.19 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0ef3843-3908-4790-994a-34f6d820b296")
-	)
 	(label "~{SUSPEND}"
 		(at 124.46 153.67 0)
 		(fields_autoplaced yes)
@@ -9589,7 +9495,7 @@
 		(uuid "c6dac4fa-00e1-4a8e-8298-2c2d66748af8")
 	)
 	(label "ISNK_COARSE"
-		(at 250.19 162.56 0)
+		(at 264.16 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9764,7 +9670,7 @@
 		)
 		(uuid "f51f7709-9ecf-4acf-8f39-58efd1beab20")
 	)
-	(hierarchical_label "USB_PD_HPI_SDA"
+	(hierarchical_label "USB_PD_SDA"
 		(shape bidirectional)
 		(at 67.31 177.8 0)
 		(fields_autoplaced yes)
@@ -9790,7 +9696,7 @@
 		)
 		(uuid "5aeb4c90-c003-4395-b657-294f770f9b2c")
 	)
-	(hierarchical_label "USB_PD_HPI_SCL"
+	(hierarchical_label "USB_PD_SCL"
 		(shape bidirectional)
 		(at 67.31 180.34 0)
 		(fields_autoplaced yes)
@@ -9885,7 +9791,7 @@
 		)
 		(uuid "ea7b3f6c-604d-4b73-bf6d-b95d62d84afc")
 	)
-	(hierarchical_label "USB_PD_HPI_INT"
+	(hierarchical_label "USB_PD_INT"
 		(shape output)
 		(at 67.31 182.88 0)
 		(fields_autoplaced yes)
@@ -10511,7 +10417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 85.598 121.666 0)
 			(effects
 				(font
@@ -11370,7 +11276,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 264.16 161.29 0)
+		(at 278.13 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11378,7 +11284,7 @@
 		(dnp no)
 		(uuid "301e2bfe-e65e-4c22-9485-0f2c63e5997c")
 		(property "Reference" "TP6"
-			(at 259.334 159.512 0)
+			(at 279.146 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11387,7 +11293,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 254 157.734 0)
+			(at 267.97 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11396,7 +11302,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 269.24 161.29 0)
+			(at 283.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11405,7 +11311,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 161.29 0)
+			(at 283.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11414,7 +11320,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 264.16 161.29 0)
+			(at 278.13 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13314,7 +13220,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 278.13 161.29 0)
+		(at 260.35 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13322,7 +13228,7 @@
 		(dnp no)
 		(uuid "6d91b25f-ad06-4583-8039-c0ca061e0610")
 		(property "Reference" "TP10"
-			(at 279.146 157.988 0)
+			(at 261.366 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13331,7 +13237,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 267.97 157.988 0)
+			(at 250.19 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13340,7 +13246,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 283.21 161.29 0)
+			(at 265.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13349,7 +13255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 161.29 0)
+			(at 265.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13358,7 +13264,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 278.13 161.29 0)
+			(at 260.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13649,72 +13555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 261.62 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "786e6813-fd27-4045-b394-910eef05c015")
-		(property "Reference" "TP5"
-			(at 256.794 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 251.46 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 266.7 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 261.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47a8d850-5f6e-4dd4-843c-b39e95d71db6")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AA_Connectors:USB_C_Receptacle_12P")
 		(at 26.67 129.54 0)
 		(unit 1)
@@ -13944,72 +13784,6 @@
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
 					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 260.35 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "831643f8-9b12-4d8e-9192-110724b9e431")
-		(property "Reference" "TP3"
-			(at 261.366 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 250.19 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 265.43 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 260.35 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd921a3e-d863-439d-abb5-e50d90901977")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -16901,7 +16675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 67.564 58.166 0)
 			(effects
 				(font
@@ -16928,7 +16702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25V"
+		(property "Description" "16V"
 			(at 69.342 59.944 0)
 			(effects
 				(font
@@ -17154,7 +16928,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 148.59 0)
+		(at 260.35 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17162,7 +16936,7 @@
 		(dnp no)
 		(uuid "ea07dd31-4af4-4c43-9c96-bb0a2adeb5e4")
 		(property "Reference" "TP4"
-			(at 261.366 145.288 0)
+			(at 261.366 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17171,7 +16945,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 250.19 145.288 0)
+			(at 250.19 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17180,7 +16954,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 265.43 148.59 0)
+			(at 265.43 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17189,7 +16963,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 148.59 0)
+			(at 265.43 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17198,7 +16972,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 148.59 0)
+			(at 260.35 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

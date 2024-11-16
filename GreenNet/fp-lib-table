@@ -4,4 +4,6 @@
   (lib (name "AA_MCUs")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_MCUs.pretty")(options "")(descr ""))
   (lib (name "AA_TestPoints")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_TestPoints.pretty")(options "")(descr ""))
   (lib (name "AA_Diodes")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Diodes.pretty")(options "")(descr ""))
+  (lib (name "AA_Logic_ICs")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Logic_ICs.pretty")(options "")(descr ""))
+  (lib (name "AA_Power_ICs")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Power_ICs.pretty")(options "")(descr ""))
 )

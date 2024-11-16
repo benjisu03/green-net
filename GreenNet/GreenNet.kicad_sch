@@ -66,8 +66,46 @@
 		(uuid "f6ecda06-e550-4e25-b3e3-a46d5c4e8208")
 	)
 	(sheet
+		(at 69.85 123.19)
+		(size 18.415 14.605)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "025b3f1d-1c69-4755-9ee3-1a2f3fe0f3ba")
+		(property "Sheetname" "Sensors"
+			(at 69.85 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 69.85 138.3796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GreenNet"
+				(path "/189669a5-f2fc-4cde-9413-8df80c557655"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 107.95 62.865)
-		(size 16.51 23.495)
+		(size 16.51 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -87,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 107.95 86.9446 0)
+			(at 107.95 99.0096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,7 +202,7 @@
 		)
 	)
 	(sheet
-		(at 64.135 101.6)
+		(at 34.925 120.65)
 		(size 18.415 14.605)
 		(fields_autoplaced yes)
 		(stroke
@@ -176,7 +214,7 @@
 		)
 		(uuid "25a95746-0a87-4e99-99e5-3474e5066d9d")
 		(property "Sheetname" "Power"
-			(at 64.135 100.8884 0)
+			(at 34.925 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +223,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 64.135 116.7896 0)
+			(at 34.925 135.8396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +241,7 @@
 	)
 	(sheet
 		(at 64.135 62.865)
-		(size 18.415 23.495)
+		(size 18.415 36.195)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -223,7 +261,7 @@
 			)
 		)
 		(property "Sheetfile" "input.kicad_sch"
-			(at 64.135 86.9446 0)
+			(at 64.135 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,6 +328,46 @@
 				(justify right)
 			)
 			(uuid "43935217-03e9-4bc9-9762-3f7a730da8d5")
+		)
+		(pin "USB_PD_GPIO" bidirectional
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "936ac1bc-aecb-45cc-9f73-fe48356d636e")
+		)
+		(pin "USB_PD_SCL" bidirectional
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82520849-8fa3-452a-a779-3e487b866a93")
+		)
+		(pin "USB_PD_SDA" bidirectional
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e60986af-5284-496f-b048-ef011e2bba77")
+		)
+		(pin "USB_PD_INT" output
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aaf06f8a-b1a1-42cc-ae98-55226b5f6308")
 		)
 		(instances
 			(project "GreenNet"

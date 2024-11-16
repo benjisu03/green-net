@@ -4,4 +4,6 @@
   (lib (name "AA_Connectors")(type "KiCad")(uri "${KIPRJMOD}/Components/Symbols/AA_Connectors.kicad_sym")(options "")(descr ""))
   (lib (name "AA_Interface_USB")(type "KiCad")(uri "${KIPRJMOD}/Components/Symbols/AA_Interface_USB.kicad_sym")(options "")(descr ""))
   (lib (name "AA_FETs")(type "KiCad")(uri "${KIPRJMOD}/Components/Symbols/AA_FETs.kicad_sym")(options "")(descr ""))
+  (lib (name "AA_Logic_ICs")(type "KiCad")(uri "${KIPRJMOD}/Components/Symbols/AA_Logic_ICs.kicad_sym")(options "")(descr ""))
+  (lib (name "AA_Power_ICs")(type "KiCad")(uri "${KIPRJMOD}/Components/Symbols/AA_Power_ICs.kicad_sym")(options "")(descr ""))
 )
