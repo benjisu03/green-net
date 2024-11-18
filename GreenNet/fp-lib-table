@@ -6,4 +6,6 @@
   (lib (name "AA_Diodes")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Diodes.pretty")(options "")(descr ""))
   (lib (name "AA_Logic_ICs")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Logic_ICs.pretty")(options "")(descr ""))
   (lib (name "AA_Power_ICs")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Power_ICs.pretty")(options "")(descr ""))
+  (lib (name "AA_Resistors")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Resistors.pretty")(options "")(descr ""))
+  (lib (name "AA_Switches")(type "KiCad")(uri "${KIPRJMOD}/Components/Footprints/AA_Switches.pretty")(options "")(descr ""))
 )

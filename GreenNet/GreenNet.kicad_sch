@@ -5,9 +5,151 @@
 	(uuid "189669a5-f2fc-4cde-9413-8df80c557655")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 102.87 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19da04ba-4425-4477-9cb9-91a3d77a88bf")
+	)
+	(junction
+		(at 100.33 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719f8455-e0f6-4810-b427-b8a6b035317d")
+	)
 	(wire
 		(pts
-			(xy 82.55 80.01) (xy 107.95 80.01)
+			(xy 95.25 110.49) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0d6ea4-437a-44ba-b204-a0b3cc644746")
+	)
+	(wire
+		(pts
+			(xy 95.25 90.17) (xy 102.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f211eea-bfb2-43b9-828b-c8734897a307")
+	)
+	(wire
+		(pts
+			(xy 95.25 118.11) (xy 107.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad17755-3fdf-4c30-bc4c-dd0aec4ef70d")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.01) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d472bb4-518e-499a-bbba-2f8ed32188c3")
+	)
+	(wire
+		(pts
+			(xy 95.25 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d9d9a1-f8c6-4c01-ac43-d7dcd982d169")
+	)
+	(wire
+		(pts
+			(xy 95.25 120.65) (xy 107.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472bd1b5-ead9-49d5-9fe2-bf2c3d0447ab")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3e96dd-2257-402a-8c59-933e9733f073")
+	)
+	(wire
+		(pts
+			(xy 95.25 113.03) (xy 107.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547fda3f-2d2c-48cb-a4ab-8498378177c7")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 100.33 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606e86cd-bdba-4a7a-8bab-747af589424d")
+	)
+	(wire
+		(pts
+			(xy 95.25 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637b62be-8764-4ad5-8cc9-e1cd98eb83f8")
+	)
+	(wire
+		(pts
+			(xy 102.87 90.17) (xy 107.95 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b5e743-6dbf-48f9-8231-dfdb234f2914")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 102.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6457cfd4-294b-40a2-9f1c-35487eb4ce62")
+	)
+	(wire
+		(pts
+			(xy 137.16 77.47) (xy 149.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d76691-3a94-456f-9bd1-9d459abe26a5")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +159,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 67.31) (xy 107.95 67.31)
+			(xy 95.25 67.31) (xy 107.95 67.31)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +169,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 82.55) (xy 107.95 82.55)
+			(xy 137.16 74.93) (xy 149.86 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e525d3-f6ab-481b-862c-e89d84ea5999")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 107.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +189,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 74.93) (xy 107.95 74.93)
+			(xy 100.33 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10b68b9-a21a-4822-8d3c-2f117b432bbd")
+	)
+	(wire
+		(pts
+			(xy 95.25 74.93) (xy 107.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +209,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 77.47) (xy 107.95 77.47)
+			(xy 95.25 77.47) (xy 107.95 77.47)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +219,47 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 69.85) (xy 107.95 69.85)
+			(xy 137.16 67.31) (xy 149.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecf1bdc-a1f8-4e40-877c-c5a84d16e4b1")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23a8303-c7aa-432e-aa05-73c72b6f4091")
+	)
+	(wire
+		(pts
+			(xy 95.25 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4127c42-b63c-446d-8f69-284a45f5d54b")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 100.33 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e510a054-12bc-46b5-b230-4429dcb49351")
+	)
+	(wire
+		(pts
+			(xy 95.25 69.85) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
@@ -65,9 +267,19 @@
 		)
 		(uuid "f6ecda06-e550-4e25-b3e3-a46d5c4e8208")
 	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8e7529-bd5c-4ec1-8c99-9fcd3a2eabfd")
+	)
 	(sheet
-		(at 69.85 123.19)
-		(size 18.415 14.605)
+		(at 149.86 64.135)
+		(size 17.78 20.955)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -77,8 +289,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "025b3f1d-1c69-4755-9ee3-1a2f3fe0f3ba")
-		(property "Sheetname" "Sensors"
-			(at 69.85 122.4784 0)
+		(property "Sheetname" "Peripherals"
+			(at 149.86 63.4234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,14 +298,74 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sensors.kicad_sch"
-			(at 69.85 138.3796 0)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 149.86 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "PERI_SDA" bidirectional
+			(at 149.86 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf991ab9-c624-44c7-93b1-a340eb0aee05")
+		)
+		(pin "PERI_SCL" bidirectional
+			(at 149.86 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "99c8bc98-3817-4846-ac83-3c418f9dbe38")
+		)
+		(pin "SOIL_EN" input
+			(at 149.86 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac8eff26-9788-4a38-8545-7d70649915ac")
+		)
+		(pin "LTR_INT" output
+			(at 149.86 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "99011cab-e929-4b2c-baad-0bedca3fd218")
+		)
+		(pin "LCD_EN" input
+			(at 149.86 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12bfb4c0-996c-4dc2-8b30-ea872820b47c")
+		)
+		(pin "SOIL_SENSE" output
+			(at 149.86 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a56a356-6176-4d7e-a03d-e6e64d9ab143")
 		)
 		(instances
 			(project "GreenNet"
@@ -104,8 +376,8 @@
 		)
 	)
 	(sheet
-		(at 107.95 62.865)
-		(size 16.51 35.56)
+		(at 107.95 64.135)
+		(size 29.21 62.23)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -116,7 +388,7 @@
 		)
 		(uuid "0ddc2f42-49d8-44b8-acf8-7a4221ab2b02")
 		(property "Sheetname" "Microcontroller"
-			(at 107.95 62.1534 0)
+			(at 107.95 63.4234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,7 +397,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 107.95 99.0096 0)
+			(at 107.95 126.9496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,6 +465,146 @@
 			)
 			(uuid "f885a5b4-f1dd-45c1-bf71-808f515ef93a")
 		)
+		(pin "USB_PD_GPIO" bidirectional
+			(at 107.95 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e08d23ba-1c83-4230-93f5-bffcd6406701")
+		)
+		(pin "PWR_SDA" bidirectional
+			(at 107.95 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e37cfce-5d4a-48cf-afe8-e141dacdf10c")
+		)
+		(pin "PWR_SCL" bidirectional
+			(at 107.95 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b5d6dd51-ad49-4c88-8581-9b435237f2ac")
+		)
+		(pin "PERI_SDA" bidirectional
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1858f973-2c4e-4fec-a4f7-43eff8c11b26")
+		)
+		(pin "PERI_SCL" bidirectional
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86ed941e-2285-4449-ab28-b93d8274a782")
+		)
+		(pin "USB_PD_INT" input
+			(at 107.95 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43461a69-d16b-42d0-badf-a0441229b744")
+		)
+		(pin "BAT_~{CE}" output
+			(at 107.95 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ce5c6b3-958c-4c75-a00f-7449956e4070")
+		)
+		(pin "BAT_EN1" output
+			(at 107.95 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "077e7332-2e23-493c-bbc6-7afc796fcb10")
+		)
+		(pin "BAT_EN2" output
+			(at 107.95 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae450ff2-557f-48e9-a18d-7d5654ae36dc")
+		)
+		(pin "BAT_INT" input
+			(at 107.95 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2f15795-29fb-4cb8-b564-6fe0827732e1")
+		)
+		(pin "SOIL_SENSE" input
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a65685e9-7d55-4f97-abcc-1b493c111a13")
+		)
+		(pin "SOIL_EN" output
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df875913-28be-4c0d-b8b7-dfa63f737b86")
+		)
+		(pin "LTR_INT" input
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e814e8a3-22fc-4d93-9dc0-932dfd5cff74")
+		)
+		(pin "LCD_EN" output
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5509519-f647-463b-95a6-d9bc04b71db1")
+		)
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655"
@@ -202,8 +614,8 @@
 		)
 	)
 	(sheet
-		(at 34.925 120.65)
-		(size 18.415 14.605)
+		(at 74.93 104.775)
+		(size 20.32 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -214,7 +626,7 @@
 		)
 		(uuid "25a95746-0a87-4e99-99e5-3474e5066d9d")
 		(property "Sheetname" "Power"
-			(at 34.925 119.9384 0)
+			(at 74.93 104.0634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -223,13 +635,73 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 34.925 135.8396 0)
+			(at 74.93 126.9496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "PWR_SDA" bidirectional
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "91b395dc-4fbb-464f-b202-ced0ec90b9dc")
+		)
+		(pin "PWR_SCL" bidirectional
+			(at 95.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a451e9d-8a88-44cf-9d31-a6c5d7d9c98f")
+		)
+		(pin "BAT_EN1" input
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01cd086f-a871-4b8c-99fc-c0cdea57fdd8")
+		)
+		(pin "BAT_EN2" input
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f37b5568-621d-4897-b9f9-07ec43d62e8c")
+		)
+		(pin "BAT_INT" output
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51aa79f7-30f8-495f-9943-fefe1ca3a784")
+		)
+		(pin "BAT_~{CE}" input
+			(at 95.25 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1da88d66-aa58-4ba2-af64-b3b23931168f")
 		)
 		(instances
 			(project "GreenNet"
@@ -240,8 +712,8 @@
 		)
 	)
 	(sheet
-		(at 64.135 62.865)
-		(size 18.415 36.195)
+		(at 74.93 64.77)
+		(size 20.32 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -252,7 +724,7 @@
 		)
 		(uuid "3bb1724a-9783-4669-873d-86bb73735874")
 		(property "Sheetname" "Input"
-			(at 64.135 62.1534 0)
+			(at 74.93 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,7 +733,7 @@
 			)
 		)
 		(property "Sheetfile" "input.kicad_sch"
-			(at 64.135 99.6446 0)
+			(at 74.93 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,7 +742,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 82.55 67.31 0)
+			(at 95.25 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +752,7 @@
 			(uuid "d0155335-b79c-4c7a-b015-3889bf40128e")
 		)
 		(pin "USB_D+" bidirectional
-			(at 82.55 69.85 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +762,7 @@
 			(uuid "d5c66fe0-3928-4943-a51b-1140077b7406")
 		)
 		(pin "UART_RXD" input
-			(at 82.55 77.47 0)
+			(at 95.25 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +772,7 @@
 			(uuid "81061426-db75-474c-acef-ee43456b25b6")
 		)
 		(pin "UART_~{RTS}" output
-			(at 82.55 80.01 0)
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +782,7 @@
 			(uuid "073a182a-9131-4e28-8cad-08d41e02045b")
 		)
 		(pin "UART_~{DTR}" output
-			(at 82.55 82.55 0)
+			(at 95.25 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,7 +792,7 @@
 			(uuid "c7304dcd-afec-44b8-bbb0-65c63c470e64")
 		)
 		(pin "UART_TXD" output
-			(at 82.55 74.93 0)
+			(at 95.25 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,45 +801,45 @@
 			)
 			(uuid "43935217-03e9-4bc9-9762-3f7a730da8d5")
 		)
+		(pin "PWR_SDA" bidirectional
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6554f838-9bef-4d66-9275-9a8de17b2d80")
+		)
+		(pin "PWR_SCL" bidirectional
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3eb1c319-807f-416a-ba9e-2a34d5d93ad3")
+		)
 		(pin "USB_PD_GPIO" bidirectional
-			(at 82.55 95.25 0)
+			(at 95.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "936ac1bc-aecb-45cc-9f73-fe48356d636e")
-		)
-		(pin "USB_PD_SCL" bidirectional
-			(at 82.55 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "82520849-8fa3-452a-a779-3e487b866a93")
-		)
-		(pin "USB_PD_SDA" bidirectional
-			(at 82.55 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e60986af-5284-496f-b048-ef011e2bba77")
+			(uuid "25acb90d-bd0a-45a2-8b72-27532be83eaf")
 		)
 		(pin "USB_PD_INT" output
-			(at 82.55 92.71 0)
+			(at 95.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aaf06f8a-b1a1-42cc-ae98-55226b5f6308")
+			(uuid "f859ed2e-85c8-4c43-a22d-addcd792714e")
 		)
 		(instances
 			(project "GreenNet"
