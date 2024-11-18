@@ -2692,17 +2692,6 @@
 		)
 		(uuid "f5bab43e-d12b-4ec1-b40c-8ea52833a6fb")
 	)
-	(label "SENSOR_SDA"
-		(at 60.96 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "004635c0-a92b-4eb2-b506-ea47062c4025")
-	)
 	(label "PERI_SDA"
 		(at 113.03 63.5 180)
 		(fields_autoplaced yes)
@@ -2724,6 +2713,17 @@
 			(justify left bottom)
 		)
 		(uuid "05fa8bdc-d632-495a-9ddf-2afbc1e40ff2")
+	)
+	(label "PERI_SCL"
+		(at 60.96 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0931cbb6-66e3-41bf-b1b8-966fcda9ff2a")
 	)
 	(label "SOIL_EN"
 		(at 119.38 62.23 0)
@@ -2769,17 +2769,6 @@
 		)
 		(uuid "481e7d77-d82c-470f-98c0-109eccb89798")
 	)
-	(label "SENSOR_SCL"
-		(at 60.96 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59c370e0-f2b0-4890-a5b9-76e3220f1a9f")
-	)
 	(label "PERI_SCL"
 		(at 220.98 60.96 0)
 		(fields_autoplaced yes)
@@ -2801,6 +2790,17 @@
 			(justify left bottom)
 		)
 		(uuid "7717cc74-4653-40ed-942f-8a5a26129960")
+	)
+	(label "PERI_SDA"
+		(at 60.96 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a653735-95c8-4642-870f-44eb0436addb")
 	)
 	(label "PERI_SCL"
 		(at 181.61 115.57 0)

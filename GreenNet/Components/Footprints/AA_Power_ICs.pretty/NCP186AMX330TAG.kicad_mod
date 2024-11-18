@@ -252,9 +252,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d8191491-5ede-4be2-8b93-aa4a9dc00c68")
 	)
-	(model "NCP186AMX330TAG.stp"
+	(model "${KIPRJMOD}/Components/Models/AA_Power_ICs/NCP186AMX330TAG.stp"
 		(offset
-			(xyz 0 0.3099999977 0)
+			(xyz 0 0.25 0)
 		)
 		(scale
 			(xyz 1 1 1)

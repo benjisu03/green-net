@@ -258,15 +258,15 @@
 		(remove_unused_layers no)
 		(uuid "71b62b39-f3ee-49b2-b16b-8521a38a18d8")
 	)
-	(model "1825910-6.stp"
+	(model "${KIPRJMOD}/Components/Models/AA_Switches/1825910-6.stp"
 		(offset
-			(xyz 3.249999951 -2.249999966 5.639999782)
+			(xyz 3.25 -2.25 5.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 90)
 		)
 	)
 )

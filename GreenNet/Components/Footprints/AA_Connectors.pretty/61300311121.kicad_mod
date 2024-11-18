@@ -193,4 +193,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "a95440f5-e2ee-4b0f-90b0-053fd15278eb")
 	)
+	(model "${KIPRJMOD}/Components/Models/AA_Connectors/61300311121.step"
+		(offset
+			(xyz 0 0 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

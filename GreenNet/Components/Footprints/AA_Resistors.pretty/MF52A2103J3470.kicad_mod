@@ -194,7 +194,7 @@
 		(remove_unused_layers no)
 		(uuid "b8d3cac4-d309-4151-95e0-4f6bb04a456b")
 	)
-	(model "MF52A2103J3470.stp"
+	(model "${KIPRJMOD}/Components/Models/AA_Resistors/MF52A2103J3470.stp"
 		(offset
 			(xyz 0 0 0)
 		)
