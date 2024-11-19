@@ -247,7 +247,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|-2667000|812800|1de1a42f-f062-4e5c-b6a2-ea469445be84|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|-3086100|812800|3c7a675a-5a6e-4dd3-85b7-83532b81f1a3|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|266700|660400|cf35a601-6fad-440a-b899-3de90d16cded|00000000-0000-0000-0000-000000000000|||",
+      "multiple_net_names|266700|876300|f6c3ace7-9cc3-46ce-900f-3110dac58c17|ddde3042-62fa-48ed-acfc-b4339e781a7e|/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874|/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874|/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
+    ],
     "meta": {
       "version": 0
     },
@@ -721,6 +726,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -744,14 +757,6 @@
     [
       "3bb1724a-9783-4669-873d-86bb73735874",
       "Input"
-    ],
-    [
-      "25a95746-0a87-4e99-99e5-3474e5066d9d",
-      "Power"
-    ],
-    [
-      "025b3f1d-1c69-4755-9ee3-1a2f3fe0f3ba",
-      "Peripherals"
     ]
   ],
   "text_variables": {}
