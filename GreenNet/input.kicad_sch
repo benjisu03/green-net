@@ -1234,7 +1234,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
+			(property "Reference" "U6"
 				(at 2.1941 -25.4 0)
 				(effects
 					(font
@@ -1272,6 +1272,96 @@
 			)
 			(property "Description" "USB to UART master bridge, QFN-28"
 				(at 21.082 32.766 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2326,7 +2416,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -19.05 15.24 0)
 					(length 3.81)
 					(name "VDD"
@@ -4428,6 +4518,10 @@
 		(uuid "4f60c537-d730-4820-9a40-8dfd3010a1e5")
 	)
 	(no_connect
+		(at 134.62 153.67)
+		(uuid "53845875-d3fa-4f2c-875c-ad234355fd76")
+	)
+	(no_connect
 		(at 172.72 124.46)
 		(uuid "55805a85-f100-42c4-99e4-c72718591047")
 	)
@@ -4452,6 +4546,10 @@
 		(uuid "98c5a2cc-6101-4084-83ce-26657ae013d0")
 	)
 	(no_connect
+		(at 172.72 139.7)
+		(uuid "9d114fb7-ae9e-4c99-bfc1-1ad9ccad9090")
+	)
+	(no_connect
 		(at 134.62 140.97)
 		(uuid "9ea7733b-c136-42a7-a48d-d8399e35e245")
 	)
@@ -4474,6 +4572,10 @@
 	(no_connect
 		(at 172.72 149.86)
 		(uuid "e9d59327-e9b6-4f78-8e05-66f112913501")
+	)
+	(no_connect
+		(at 172.72 137.16)
+		(uuid "eb27f70c-83dc-451b-996c-c1958a536de5")
 	)
 	(wire
 		(pts
@@ -4567,7 +4669,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 118.11) (xy 260.35 118.11)
+			(xy 242.57 124.46) (xy 252.73 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4617,26 +4719,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 149.86) (xy 241.3 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6d3007-efa2-4f9f-a35e-44f6b51c18dd")
-	)
-	(wire
-		(pts
-			(xy 259.08 143.51) (xy 269.24 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dd24811-e78a-4226-aaaa-98a30254e7c0")
-	)
-	(wire
-		(pts
 			(xy 22.86 186.69) (xy 36.83 186.69)
 		)
 		(stroke
@@ -4644,16 +4726,6 @@
 			(type default)
 		)
 		(uuid "0e7eae3b-244c-427a-84a1-0e4a87cda10f")
-	)
-	(wire
-		(pts
-			(xy 241.3 143.51) (xy 241.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7cca04-9468-4326-9b0e-49a576277ebc")
 	)
 	(wire
 		(pts
@@ -4667,16 +4739,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 137.16) (xy 260.35 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10cbc873-2955-416b-90c0-f0bd2382fb86")
-	)
-	(wire
-		(pts
 			(xy 190.5 82.55) (xy 190.5 86.36)
 		)
 		(stroke
@@ -4687,7 +4749,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 124.46) (xy 278.13 123.19)
+			(xy 270.51 130.81) (xy 270.51 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4707,17 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 124.46) (xy 241.3 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13142eab-ba7f-4218-9fcf-175223412bfd")
-	)
-	(wire
-		(pts
-			(xy 264.16 137.16) (xy 278.13 137.16)
+			(xy 256.54 143.51) (xy 270.51 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4917,16 +4969,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 149.86) (xy 241.3 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e792cc0-bf3e-410b-badf-193e510a7158")
-	)
-	(wire
-		(pts
 			(xy 118.11 116.84) (xy 132.08 116.84)
 		)
 		(stroke
@@ -4934,16 +4976,6 @@
 			(type default)
 		)
 		(uuid "2ebfd619-d5b2-4c19-8691-afe553baeda9")
-	)
-	(wire
-		(pts
-			(xy 231.14 143.51) (xy 241.3 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "300f1e2f-cd74-46c4-a4f6-97ab0754b64b")
 	)
 	(wire
 		(pts
@@ -4997,16 +5029,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 137.16) (xy 177.8 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "368f7e24-7a43-479b-a295-3cd09f60322a")
-	)
-	(wire
-		(pts
 			(xy 194.31 142.24) (xy 194.31 140.97)
 		)
 		(stroke
@@ -5037,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 130.81) (xy 278.13 129.54)
+			(xy 270.51 137.16) (xy 270.51 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5084,16 +5106,6 @@
 			(type default)
 		)
 		(uuid "41accac1-42d8-4a6b-a037-a820422a2d19")
-	)
-	(wire
-		(pts
-			(xy 172.72 139.7) (xy 177.8 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42af906b-a660-4335-b2cf-d41d28c7fca8")
 	)
 	(wire
 		(pts
@@ -5147,26 +5159,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 143.51) (xy 269.24 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47722778-10ef-40c1-8266-774d54135055")
-	)
-	(wire
-		(pts
-			(xy 231.14 130.81) (xy 241.3 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a6e7488-7158-444e-ac8b-79c96162b87d")
-	)
-	(wire
-		(pts
 			(xy 118.11 121.92) (xy 134.62 121.92)
 		)
 		(stroke
@@ -5204,6 +5196,16 @@
 			(type dash)
 		)
 		(uuid "4e16c1a4-df1f-4eec-9498-ead86f589668")
+	)
+	(wire
+		(pts
+			(xy 252.73 130.81) (xy 252.73 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8f8b79-f171-4108-a48a-be40ba6048a0")
 	)
 	(wire
 		(pts
@@ -5274,16 +5276,6 @@
 			(type dash)
 		)
 		(uuid "56ada043-e084-4cf7-900f-df1edb637541")
-	)
-	(wire
-		(pts
-			(xy 231.14 124.46) (xy 241.3 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582395d4-1a5a-4986-9c0e-6c681c934a97")
 	)
 	(wire
 		(pts
@@ -5377,16 +5369,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 130.81) (xy 241.3 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67a473a3-7bd2-4f41-8716-fdba980e24f9")
-	)
-	(wire
-		(pts
 			(xy 81.28 114.3) (xy 85.09 114.3)
 		)
 		(stroke
@@ -5424,16 +5406,6 @@
 			(type default)
 		)
 		(uuid "6c1145e3-a9b5-4841-a1bf-3875292dc0c9")
-	)
-	(polyline
-		(pts
-			(xy 248.285 109.22) (xy 248.285 165.735)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "6c75830d-81c5-4f87-b398-07250e1891bf")
 	)
 	(wire
 		(pts
@@ -5597,16 +5569,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 118.11) (xy 241.3 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82de22be-a3b6-466b-b304-e6ea57c0664c")
-	)
-	(wire
-		(pts
 			(xy 116.84 179.07) (xy 116.84 184.15)
 		)
 		(stroke
@@ -5677,7 +5639,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 137.16) (xy 241.3 135.89)
+			(xy 252.73 137.16) (xy 252.73 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5707,17 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 118.11) (xy 241.3 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af77dbf-8b82-4328-a58c-22f478b1b91b")
-	)
-	(wire
-		(pts
-			(xy 269.24 156.21) (xy 269.24 154.94)
+			(xy 270.51 149.86) (xy 270.51 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5747,7 +5699,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 124.46) (xy 278.13 124.46)
+			(xy 256.54 130.81) (xy 270.51 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5764,16 +5716,6 @@
 			(type default)
 		)
 		(uuid "8f3d69c8-faa8-4c17-8fe2-913199063f9a")
-	)
-	(wire
-		(pts
-			(xy 260.35 130.81) (xy 260.35 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f412ed2-80c7-462d-866e-e1836189367c")
 	)
 	(wire
 		(pts
@@ -5877,16 +5819,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 149.86) (xy 269.24 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9accf558-e897-42a4-8340-24a18d41c46f")
-	)
-	(wire
-		(pts
 			(xy 132.08 190.5) (xy 132.08 189.23)
 		)
 		(stroke
@@ -5897,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 118.11) (xy 260.35 116.84)
+			(xy 252.73 124.46) (xy 252.73 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6037,16 +5969,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 153.67) (xy 134.62 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c03b21-b108-402a-a205-2dd43a771312")
-	)
-	(wire
-		(pts
 			(xy 81.28 83.82) (xy 81.28 85.09)
 		)
 		(stroke
@@ -6057,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 156.21) (xy 269.24 156.21)
+			(xy 256.54 149.86) (xy 270.51 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6075,16 +5997,6 @@
 		)
 		(uuid "ab93e55d-22f2-4c4b-a9cb-0cf0b98cd3e7")
 	)
-	(wire
-		(pts
-			(xy 250.19 130.81) (xy 260.35 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae9e5960-7764-47eb-b868-c20d1a0c14e1")
-	)
 	(polyline
 		(pts
 			(xy 12.065 107.95) (xy 90.17 107.95)
@@ -6097,17 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 137.16) (xy 260.35 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0a012a-b942-4fce-8a1d-43c9ab0deda7")
-	)
-	(wire
-		(pts
-			(xy 250.19 124.46) (xy 260.35 124.46)
+			(xy 241.3 130.81) (xy 252.73 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6127,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 137.16) (xy 241.3 137.16)
+			(xy 242.57 137.16) (xy 252.73 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6317,7 +6219,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 137.16) (xy 278.13 135.89)
+			(xy 270.51 143.51) (xy 270.51 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6414,16 +6316,6 @@
 			(type default)
 		)
 		(uuid "c9561fc3-69f3-4b4f-bd26-843007b65b41")
-	)
-	(wire
-		(pts
-			(xy 259.08 149.86) (xy 269.24 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac7b2e9-09fa-4923-9e80-85075814233d")
 	)
 	(wire
 		(pts
@@ -6537,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 130.81) (xy 278.13 130.81)
+			(xy 256.54 137.16) (xy 270.51 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6627,7 +6519,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 118.11) (xy 278.13 118.11)
+			(xy 256.54 124.46) (xy 270.51 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6717,16 +6609,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 124.46) (xy 260.35 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b9c4ee-cfd5-4359-855d-a0d019882867")
-	)
-	(wire
-		(pts
 			(xy 74.93 58.42) (xy 74.93 76.2)
 		)
 		(stroke
@@ -6807,7 +6689,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 162.56) (xy 269.24 162.56)
+			(xy 242.57 149.86) (xy 252.73 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6827,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 118.11) (xy 278.13 116.84)
+			(xy 270.51 124.46) (xy 270.51 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6887,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 162.56) (xy 269.24 161.29)
+			(xy 252.73 149.86) (xy 252.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7160,16 +7042,6 @@
 		)
 		(uuid "0b168a86-e8e4-45c6-a670-93e9ba986163")
 	)
-	(text "Power"
-		(exclude_from_sim no)
-		(at 239.268 110.998 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "120eb45a-b7b8-4aa2-b2e7-e0aad07a9396")
-	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 51.816 41.91 0)
@@ -7343,7 +7215,7 @@
 	)
 	(text "Data"
 		(exclude_from_sim no)
-		(at 266.192 110.998 0)
+		(at 258.572 117.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7406,7 +7278,7 @@
 		(uuid "fa0d2156-5b7c-4b5d-9847-91bc20541771")
 	)
 	(label "SOIL_EN"
-		(at 260.35 162.56 0)
+		(at 242.57 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7417,7 +7289,7 @@
 		(uuid "02fb0da6-d31e-412b-9375-a693a538437c")
 	)
 	(label "UART_TXD"
-		(at 250.19 118.11 0)
+		(at 242.57 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7450,7 +7322,7 @@
 		(uuid "1089989c-5b8f-4903-a339-115a2dc42889")
 	)
 	(label "USB_UART_D-"
-		(at 264.16 130.81 0)
+		(at 256.54 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7470,28 +7342,6 @@
 			(justify left bottom)
 		)
 		(uuid "16783e25-6a28-4a8b-90a4-3eccfd594cdf")
-	)
-	(label "SOIL_PWR"
-		(at 259.08 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18c09468-ce85-4f13-a859-b140b5ef5d47")
-	)
-	(label "LCD_PWR"
-		(at 259.08 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e8206ea-b237-4502-ab71-d09bad6263a6")
 	)
 	(label "UART_~{DTR}"
 		(at 184.15 119.38 180)
@@ -7526,17 +7376,6 @@
 		)
 		(uuid "2f342288-9d26-4e52-8234-947b70a43d12")
 	)
-	(label "VUSB"
-		(at 231.14 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37e7d0ba-6727-4646-b5be-5fefee62371e")
-	)
 	(label "USB_D-"
 		(at 22.86 179.07 0)
 		(fields_autoplaced yes)
@@ -7560,7 +7399,7 @@
 		(uuid "3c246f7a-5c00-4274-9059-64da2aeac80b")
 	)
 	(label "USB_D-"
-		(at 264.16 118.11 0)
+		(at 256.54 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7582,7 +7421,7 @@
 		(uuid "3f0fd210-1114-4c41-b1ed-b339a6243f85")
 	)
 	(label "USB_UART_D+"
-		(at 264.16 137.16 0)
+		(at 256.54 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7593,7 +7432,7 @@
 		(uuid "3f7b82d6-4d6c-4384-b98f-8e46348e2fef")
 	)
 	(label "SOIL_SENSE"
-		(at 257.81 156.21 0)
+		(at 256.54 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7604,7 +7443,7 @@
 		(uuid "45b51760-79be-4011-bc0a-56b1c4ffbae9")
 	)
 	(label "UART_RXD"
-		(at 250.19 124.46 0)
+		(at 241.3 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7635,17 +7474,6 @@
 			(justify left bottom)
 		)
 		(uuid "5c355862-5b2f-48b9-91f3-10c29f042583")
-	)
-	(label "VUART"
-		(at 231.14 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c5217be-c6f4-4b78-ace8-44e236951f79")
 	)
 	(label "PERI_SCL"
 		(at 223.52 73.66 180)
@@ -7691,17 +7519,6 @@
 		)
 		(uuid "78e95985-89f6-41d9-9813-d8a632e19e88")
 	)
-	(label "UART_~{DTR}"
-		(at 250.19 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fe807d7-f3b6-4c0e-95b2-45caeb5603e4")
-	)
 	(label "PERI_SCL"
 		(at 165.1 73.66 180)
 		(fields_autoplaced yes)
@@ -7714,7 +7531,7 @@
 		(uuid "803f5b32-50e5-4487-8a79-63c233bc2c06")
 	)
 	(label "USB_D+"
-		(at 264.16 124.46 0)
+		(at 256.54 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7725,7 +7542,7 @@
 		(uuid "81d83942-d6f8-457e-8d3a-583004382fbc")
 	)
 	(label "VBUS"
-		(at 231.14 137.16 0)
+		(at 242.57 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7768,28 +7585,6 @@
 		)
 		(uuid "a43ee6f3-681a-4c05-8a72-5af423bc3498")
 	)
-	(label "RXT"
-		(at 177.8 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4869151-12ae-4951-a39d-11cbf40b24e9")
-	)
-	(label "UART_VDD"
-		(at 231.14 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9d2446d-6315-4827-9c46-1593e3d7a829")
-	)
 	(label "UART_~{RTS}"
 		(at 22.86 189.23 0)
 		(fields_autoplaced yes)
@@ -7811,28 +7606,6 @@
 			(justify left bottom)
 		)
 		(uuid "b990c177-0120-4adc-89a2-7f6ec17a2571")
-	)
-	(label "TXT"
-		(at 177.8 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd3acedb-9c08-4cf4-8577-a6b6df6f9365")
-	)
-	(label "~{SUSPEND}"
-		(at 124.46 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4fc0c90-fd28-4bb1-8053-d7fcf771028a")
 	)
 	(label "PERI_SDA"
 		(at 52.07 179.07 0)
@@ -7911,17 +7684,6 @@
 		)
 		(uuid "ddfea17c-e3da-47b1-9766-36f2de7acde6")
 	)
-	(label "LCD_EN"
-		(at 231.14 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6f1301d-5478-44d1-9441-370030aac89c")
-	)
 	(label "LTR_INT"
 		(at 223.52 76.2 180)
 		(fields_autoplaced yes)
@@ -7933,17 +7695,6 @@
 		)
 		(uuid "eab6fd59-b256-4ad2-a7e9-a27c07989ee2")
 	)
-	(label "LTR_INT"
-		(at 231.14 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ecc16469-9c18-46e1-95c8-6d18a366b6d6")
-	)
 	(label "SOIL_SENSE"
 		(at 256.54 76.2 0)
 		(fields_autoplaced yes)
@@ -7954,17 +7705,6 @@
 			(justify left bottom)
 		)
 		(uuid "eec71231-4f98-4f32-9f2c-ba127116be84")
-	)
-	(label "UART_~{RTS}"
-		(at 250.19 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f440d815-9aac-4c4a-8442-1662c5804879")
 	)
 	(label "SOIL_EN"
 		(at 243.84 69.85 0)
@@ -8126,15 +7866,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 269.24 154.94 0)
+		(at 270.51 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "022853c4-f931-4859-93fe-468050c56b23")
-		(property "Reference" "TP26"
-			(at 270.256 151.638 0)
+		(property "Reference" "TP13"
+			(at 271.526 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +7883,7 @@
 			)
 		)
 		(property "Value" "SOIL_SENSE"
-			(at 257.048 151.638 0)
+			(at 258.318 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +7892,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 274.32 154.94 0)
+			(at 275.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +7901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 154.94 0)
+			(at 275.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +7910,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +7919,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +7928,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +7937,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +7946,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +7955,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +7964,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +7973,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +7982,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +7991,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8000,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 269.24 154.94 0)
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8014,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP26")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -8289,7 +8029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02b355eb-146d-4446-9c2d-258371853d41")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR026"
 			(at 110.49 52.07 0)
 			(effects
 				(font
@@ -8339,7 +8079,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR08")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8354,7 +8094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06fb03db-5e55-4317-8d72-de4406da9726")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR023"
 			(at 85.09 130.81 0)
 			(effects
 				(font
@@ -8404,7 +8144,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR028")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8412,15 +8152,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 241.3 135.89 0)
+		(at 252.73 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "092694e4-17fc-4096-9673-c53d12ca96c6")
-		(property "Reference" "TP16"
-			(at 242.316 132.588 0)
+		(property "Reference" "TP7"
+			(at 253.746 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8169,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 235.204 132.588 0)
+			(at 246.634 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8178,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 246.38 135.89 0)
+			(at 257.81 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +8187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 135.89 0)
+			(at 257.81 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8196,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8205,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,7 +8214,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8223,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8232,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8241,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8250,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8259,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8268,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8277,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8286,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 241.3 135.89 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8300,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP16")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8575,7 +8315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09ebea55-36d5-4464-9e3e-6178608f59d2")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 214.884 78.994 0)
 			(effects
 				(font
@@ -8719,7 +8459,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8734,7 +8474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10384cfa-e118-4a4b-a237-db54e222cc17")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 85.598 117.094 0)
 			(effects
 				(font
@@ -8878,7 +8618,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8909,7 +8649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AA_Inductors:ASPI0628150MT1"
 			(at 146.05 181.61 0)
 			(effects
 				(font
@@ -9023,7 +8763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19f78aac-f891-4bd1-81ab-24da81748976")
-		(property "Reference" "C11"
+		(property "Reference" "C4"
 			(at 85.598 53.594 0)
 			(effects
 				(font
@@ -9167,7 +8907,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C11")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9182,7 +8922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1adb6fe7-8eab-4223-96c1-484db9ed7303")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 50.8 79.502 0)
 			(effects
 				(font
@@ -9324,7 +9064,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9339,7 +9079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ae39edd-e9aa-42b1-b632-4d8bf9cbfd67")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 68.58 157.48 0)
 			(effects
 				(font
@@ -9389,7 +9129,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9405,7 +9145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b4e6928-3825-43b2-b053-f4e010673e34")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 26.67 158.75 0)
 			(effects
 				(font
@@ -9455,7 +9195,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9470,7 +9210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c525cb1-4c76-46a5-bc2e-d155baa53086")
-		(property "Reference" "C6"
+		(property "Reference" "C17"
 			(at 210.058 134.874 0)
 			(effects
 				(font
@@ -9614,7 +9354,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C6")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9799,7 +9539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f24607a-240e-487c-9d33-a3868b035a07")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR034"
 			(at 153.67 166.37 0)
 			(effects
 				(font
@@ -9849,7 +9589,7 @@
 		(instances
 			(project ""
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR016")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9864,7 +9604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28d423e6-cded-4074-abaf-15eb4f44aede")
-		(property "Reference" "C5"
+		(property "Reference" "C15"
 			(at 202.438 134.874 0)
 			(effects
 				(font
@@ -10008,163 +9748,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 260.35 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c832069-71eb-4fb6-9803-f15d92e4f5c0")
-		(property "Reference" "TP19"
-			(at 261.366 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 250.19 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 265.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abdbc822-e5a0-4fce-9dd6-3239cc1a80eb")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP19")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10179,7 +9763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3021bfba-c6c6-4457-9208-50fedd719976")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR038"
 			(at 190.5 93.98 0)
 			(effects
 				(font
@@ -10229,163 +9813,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 269.24 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31ad5970-8c77-4525-a72d-cc900571804e")
-		(property "Reference" "TP28"
-			(at 270.256 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SOIL_PWR"
-			(at 259.08 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d4a6b52-729e-4c11-90be-bb51e0d07e8a")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP28")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10400,7 +9828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33fd9ec8-6215-47e9-9c8c-ee4d9d0a401e")
-		(property "Reference" "C21"
+		(property "Reference" "C10"
 			(at 154.178 184.404 0)
 			(effects
 				(font
@@ -10544,7 +9972,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C21")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10559,7 +9987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390bbf2c-a244-400b-a0a6-46059d457632")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 155.8641 157.48 0)
 			(effects
 				(font
@@ -10784,7 +10212,7 @@
 		(instances
 			(project ""
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -10792,15 +10220,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 278.13 123.19 0)
+		(at 270.51 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "399b9809-21e1-429d-8bec-0051fb7085d6")
-		(property "Reference" "TP22"
-			(at 279.146 119.888 0)
+		(property "Reference" "TP10"
+			(at 271.526 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +10237,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 267.97 119.888 0)
+			(at 260.35 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10246,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 283.21 123.19 0)
+			(at 275.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +10255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 123.19 0)
+			(at 275.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +10264,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +10273,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +10282,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +10291,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,7 +10300,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,7 +10309,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,7 +10318,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10327,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10336,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +10345,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10926,7 +10354,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 278.13 123.19 0)
+			(at 270.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,7 +10368,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP22")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -10955,7 +10383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b958409-0d94-4498-9157-eb350b12e539")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR042"
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -11005,7 +10433,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR022")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11197,7 +10625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f595c35-6f57-4341-a847-21ce4f1d8d9d")
-		(property "Reference" "D19"
+		(property "Reference" "D12"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -11341,7 +10769,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D19")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11349,15 +10777,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 123.19 0)
+		(at 252.73 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4474ac51-2a28-47a2-8253-e3e9f56c647d")
-		(property "Reference" "TP18"
-			(at 261.366 119.888 0)
+		(property "Reference" "TP6"
+			(at 253.746 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +10794,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 250.19 119.888 0)
+			(at 242.57 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +10803,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 265.43 123.19 0)
+			(at 257.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11384,7 +10812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 123.19 0)
+			(at 257.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +10821,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11402,7 +10830,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,7 +10839,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11420,7 +10848,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11429,7 +10857,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +10866,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,7 +10875,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,7 +10884,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,7 +10893,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,7 +10902,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11483,7 +10911,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 260.35 123.19 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11497,7 +10925,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP18")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11512,7 +10940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48586d65-731d-44a7-a4db-66d724f1432c")
-		(property "Reference" "C18"
+		(property "Reference" "C11"
 			(at 161.798 184.404 0)
 			(effects
 				(font
@@ -11656,7 +11084,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C18")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11671,7 +11099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4922f1b0-aa4c-4fc3-9cf0-be0cd9feb308")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 208.534 78.994 0)
 			(effects
 				(font
@@ -11815,7 +11243,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11830,7 +11258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4abec449-7794-49ea-9057-b56c822f392c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR033"
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -11880,7 +11308,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR017")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11895,7 +11323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4df1973b-1540-4471-8733-43546891eda4")
-		(property "Reference" "C4"
+		(property "Reference" "C13"
 			(at 194.818 134.874 0)
 			(effects
 				(font
@@ -12039,7 +11467,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C4")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12054,7 +11482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e6a46ed-9af4-4b56-9063-fa298e9e6b7c")
-		(property "Reference" "D6"
+		(property "Reference" "D13"
 			(at 106.68 146.05 0)
 			(effects
 				(font
@@ -12198,7 +11626,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D6")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -12213,7 +11641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50bf6ad9-5f29-40ef-bbb6-274ea4931eb7")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR037"
 			(at 179.07 72.39 0)
 			(effects
 				(font
@@ -12263,163 +11691,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54ef521f-f998-4fee-bc6a-7e6a7349c029")
-		(property "Reference" "TP14"
-			(at 242.316 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VUART"
-			(at 234.442 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 246.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 241.3 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9577781-b46d-472d-b853-6c6bcbfb0c6d")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP14")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12434,7 +11706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57371dd2-8f9f-403a-b7fb-a7f0cdbe855a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR032"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -12484,7 +11756,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR09")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12492,15 +11764,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 278.13 129.54 0)
+		(at 270.51 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5c6d7f54-d960-446a-81c0-d51e2b77c0b7")
-		(property "Reference" "TP23"
-			(at 279.146 126.238 0)
+		(property "Reference" "TP11"
+			(at 271.526 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12509,7 +11781,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 267.97 126.238 0)
+			(at 260.35 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12518,7 +11790,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 283.21 129.54 0)
+			(at 275.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +11799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 129.54 0)
+			(at 275.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,7 +11808,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12545,7 +11817,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12554,7 +11826,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,7 +11835,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12572,7 +11844,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12581,7 +11853,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12590,7 +11862,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12599,7 +11871,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12608,7 +11880,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12617,7 +11889,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12626,7 +11898,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 278.13 129.54 0)
+			(at 270.51 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,7 +11912,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP23")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -12655,7 +11927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cecdda1-47a0-458b-8218-faba01e39443")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 128.524 78.994 0)
 			(effects
 				(font
@@ -12799,7 +12071,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12814,7 +12086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d31ef7e-f45a-46d5-b3e4-345a76f49668")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 134.62 187.96 0)
 			(effects
 				(font
@@ -12941,7 +12213,7 @@
 		(instances
 			(project ""
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12956,7 +12228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64f3acb5-eb5d-4461-9143-8c1ffb02bd81")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR027"
 			(at 110.49 181.61 0)
 			(effects
 				(font
@@ -13006,7 +12278,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR040")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13021,7 +12293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65499580-1c49-49f7-bbe7-5793f78cf918")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 72.39 53.34 0)
 			(effects
 				(font
@@ -13071,7 +12343,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13079,171 +12351,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "667e75b6-ef22-49b6-8797-baeeabf146f0")
-		(property "Reference" "TP20"
-			(at 261.366 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 250.19 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 265.43 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19de7c2c-24ce-46a2-b9ae-26b0e6724bdd")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 260.35 116.84 0)
+		(at 252.73 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "672ba0b9-4a13-4902-a04d-8bacbee2ee55")
-		(property "Reference" "TP17"
-			(at 261.366 113.538 0)
+		(property "Reference" "TP5"
+			(at 253.746 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13252,7 +12368,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 250.19 113.538 0)
+			(at 242.57 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13261,7 +12377,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 265.43 116.84 0)
+			(at 257.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13270,7 +12386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 116.84 0)
+			(at 257.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,7 +12395,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13288,7 +12404,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13297,7 +12413,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,7 +12422,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13315,7 +12431,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,7 +12440,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +12449,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +12458,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13351,7 +12467,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +12476,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13369,7 +12485,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 260.35 116.84 0)
+			(at 252.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13383,7 +12499,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP17")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -13398,7 +12514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69b31464-f7b4-4951-8224-88301c5f7d4b")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 100.33 83.058 90)
 			(effects
 				(font
@@ -13542,7 +12658,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13557,7 +12673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a7d1529-41a0-49c5-abdb-bb1f2dd88ac7")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 71.628 146.304 90)
 			(effects
 				(font
@@ -13701,7 +12817,7 @@
 		(instances
 			(project ""
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13717,7 +12833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b24d240-ad76-47cf-915f-6905017b4d69")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 271.018 83.058 0)
 			(effects
 				(font
@@ -13864,7 +12980,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13880,7 +12996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d6d7f24-2b9f-4b9f-9170-9473dea7d088")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 26.67 95.25 0)
 			(effects
 				(font
@@ -13930,7 +13046,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13945,7 +13061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72cba5a6-1f66-4bea-ac09-4fca53450111")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR043"
 			(at 245.11 81.28 0)
 			(effects
 				(font
@@ -13995,7 +13111,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR035")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14003,15 +13119,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 269.24 161.29 0)
+		(at 252.73 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "731ba415-c95c-48da-9110-ae3b9d74b26e")
-		(property "Reference" "TP27"
-			(at 270.256 157.988 0)
+		(property "Reference" "TP8"
+			(at 253.746 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14020,7 +13136,7 @@
 			)
 		)
 		(property "Value" "SOIL_EN"
-			(at 259.08 157.988 0)
+			(at 243.84 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +13145,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 274.32 161.29 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +13154,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 161.29 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,7 +13163,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +13172,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14065,7 +13181,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14074,7 +13190,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14083,7 +13199,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14092,7 +13208,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14101,7 +13217,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14110,7 +13226,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14119,7 +13235,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14128,7 +13244,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14137,7 +13253,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 269.24 161.29 0)
+			(at 252.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14151,7 +13267,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP27")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -14166,7 +13282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73f8f9f5-94bb-4408-a3d4-6f1cd1c0c3f2")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 71.628 82.804 90)
 			(effects
 				(font
@@ -14310,7 +13426,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -14325,7 +13441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74ee02da-e221-4cf4-a784-c521050bbb40")
-		(property "Reference" "D4"
+		(property "Reference" "D9"
 			(at 84.328 146.304 90)
 			(effects
 				(font
@@ -14470,7 +13586,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D4")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -14485,7 +13601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7639724c-291b-491d-bdd2-f62d417d9b01")
-		(property "Reference" "D18"
+		(property "Reference" "D8"
 			(at 85.344 82.55 90)
 			(effects
 				(font
@@ -14630,7 +13746,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D18")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -14836,7 +13952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e399bee-0129-4ab0-b78d-6dbd70ad0010")
-		(property "Reference" "R6"
+		(property "Reference" "R18"
 			(at 133.35 128.27 0)
 			(effects
 				(font
@@ -14980,7 +14096,7 @@
 		(instances
 			(project ""
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "R6")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15151,162 +14267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82cf0379-9429-4ce4-98ce-9bdc22d6d7fe")
-		(property "Reference" "TP15"
-			(at 242.316 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 235.204 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 246.38 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 241.3 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8825a64a-8c12-4806-aae1-895f1c960d75")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 224.79 137.16 0)
 		(unit 1)
@@ -15315,7 +14275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e2f36d0-408b-4063-b4f7-340c8ee29701")
-		(property "Reference" "C8"
+		(property "Reference" "C20"
 			(at 225.298 134.874 0)
 			(effects
 				(font
@@ -15459,7 +14419,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C8")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -15474,7 +14434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90291ba7-c314-469b-a294-9c672a09f6ff")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 179.324 78.994 0)
 			(effects
 				(font
@@ -15618,7 +14578,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15633,7 +14593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95235ad6-14f2-4869-afed-fefadc42acb5")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR021"
 			(at 72.39 116.84 0)
 			(effects
 				(font
@@ -15683,7 +14643,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR030")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15698,7 +14658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96572a87-d804-4c5c-be8e-971b90becc2b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -15748,7 +14708,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15763,7 +14723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "996d2db1-65a1-44fb-bbf4-4e16dd65269f")
-		(property "Reference" "D17"
+		(property "Reference" "D6"
 			(at 78.994 82.804 90)
 			(effects
 				(font
@@ -15908,7 +14868,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D17")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15923,7 +14883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a0c3ed5-fe25-418c-a0ae-2af060cf255c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 93.98 149.86 0)
 			(effects
 				(font
@@ -15973,7 +14933,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15988,7 +14948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c50c64e-e57e-4846-9c5b-f41ef7e9a288")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 77.978 146.304 90)
 			(effects
 				(font
@@ -16133,7 +15093,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16148,7 +15108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9efbd2e3-9ac6-4723-b118-aea7f48bda6b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -16198,7 +15158,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16213,7 +15173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a41cb7b4-65fb-4c69-b9be-71fd6db2ced7")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR039"
 			(at 201.93 149.86 0)
 			(effects
 				(font
@@ -16263,7 +15223,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR020")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16278,7 +15238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8765f7b-fbcd-40c7-b283-af77048a8ab3")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 134.874 78.994 0)
 			(effects
 				(font
@@ -16422,7 +15382,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16438,7 +15398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac1c9ec2-7132-4b88-b3c8-a28efe2e7fb3")
-		(property "Reference" "C20"
+		(property "Reference" "C9"
 			(at 140.462 184.404 0)
 			(effects
 				(font
@@ -16582,7 +15542,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C20")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16756,7 +15716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2b48a34-5365-4f1e-883a-8db5f19dbad5")
-		(property "Reference" "R5"
+		(property "Reference" "R15"
 			(at 58.42 143.002 0)
 			(effects
 				(font
@@ -16898,7 +15858,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "R5")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16913,7 +15873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b50daa2e-f244-40f0-9a3e-ea1cff96a65d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR017"
 			(at 52.07 156.21 0)
 			(effects
 				(font
@@ -16963,7 +15923,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR012")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16978,7 +15938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b95ec059-8d2e-4626-b6ce-9fd9c78ba2b7")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR029"
 			(at 111.76 115.57 0)
 			(effects
 				(font
@@ -17028,7 +15988,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR07")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17043,7 +16003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd009230-af3e-436a-8bec-0276e82689ea")
-		(property "Reference" "D7"
+		(property "Reference" "D10"
 			(at 96.52 48.006 0)
 			(effects
 				(font
@@ -17059,7 +16019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AA_Diodes:DSS14U"
 			(at 96.52 50.8 0)
 			(effects
 				(font
@@ -17158,163 +16118,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c03a69a5-2d91-4e7d-b06d-0a08ef8e9a14")
-		(property "Reference" "TP7"
-			(at 242.316 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTR_INT"
-			(at 232.918 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abcbca81-4bb2-479d-9d3c-3f1395cc0acd")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP7")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -17329,7 +16133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1b4a24a-7f02-4a8f-b032-ef756b80a632")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR028"
 			(at 110.49 199.39 0)
 			(effects
 				(font
@@ -17379,7 +16183,7 @@
 		(instances
 			(project ""
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR039")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -17394,7 +16198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c21bfb6e-58bc-4fe6-a5e1-db91c9545dbf")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 113.03 156.21 0)
 			(effects
 				(font
@@ -17444,7 +16248,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17459,7 +16263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3d46f5e-16a6-4d6a-9533-d33e10960781")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR044"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -17509,7 +16313,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR036")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17524,7 +16328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c723d59f-d321-48f7-a68c-b6050a2a36eb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR041"
 			(at 214.63 93.98 0)
 			(effects
 				(font
@@ -17574,7 +16378,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR032")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -17589,7 +16393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca3f680f-8a3c-46f6-b833-109e25157f99")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR024"
 			(at 93.98 86.36 0)
 			(effects
 				(font
@@ -17639,163 +16443,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 269.24 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb9e23ab-1594-472c-8597-69f30c46de48")
-		(property "Reference" "TP25"
-			(at 270.256 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LCD_PWR"
-			(at 259.08 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 274.32 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c8c2237-a17b-42a4-995b-c22f8933463e")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP25")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -17811,7 +16459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf35a601-6fad-440a-b899-3de90d16cded")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 35.814 85.09 0)
 			(effects
 				(font
@@ -17986,7 +16634,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -18001,7 +16649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5fe4270-b357-41c3-9d1d-34381af8687c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -18051,7 +16699,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -18066,7 +16714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6997fa2-e82f-4782-9a32-20b64bdcab1d")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 50.8 143.002 0)
 			(effects
 				(font
@@ -18208,7 +16856,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18223,7 +16871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dad78ef8-663e-4344-b867-6d58e321a2b8")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR040"
 			(at 209.55 134.62 0)
 			(effects
 				(font
@@ -18273,7 +16921,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR021")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18288,7 +16936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de0dde87-caea-4bf2-ac5c-7c60cc4c9d5d")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 97.79 111.506 0)
 			(effects
 				(font
@@ -18304,7 +16952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AA_Diodes:DSS14U"
 			(at 97.79 114.3 0)
 			(effects
 				(font
@@ -18403,163 +17051,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e111d090-0b62-4359-8823-4b2fd6aeaed4")
-		(property "Reference" "TP8"
-			(at 242.316 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LCD_EN"
-			(at 233.172 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 246.38 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbde794e-ea78-405f-b383-e2c90bb0d857")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP8")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -18574,7 +17066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e237837e-d555-4d54-83fb-a4fccf62cb8a")
-		(property "Reference" "R8"
+		(property "Reference" "R17"
 			(at 100.33 146.558 90)
 			(effects
 				(font
@@ -18718,163 +17210,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3b232be-d75c-41ef-867b-f6b9dd393c40")
-		(property "Reference" "TP13"
-			(at 242.316 113.538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UART_VDD"
-			(at 230.886 113.538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 246.38 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 241.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f93ea870-bc3c-4e25-88f5-a44b6327801b")
-		)
-		(instances
-			(project "GreenNet"
-				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -18889,7 +17225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4017dbe-14c6-4abb-90ad-91dcc2a8fdbe")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR035"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -18939,7 +17275,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR010")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18954,7 +17290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6706462-e5eb-44d7-9374-fab221c5bbe0")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 58.928 79.502 0)
 			(effects
 				(font
@@ -19096,7 +17432,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -19111,7 +17447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee75bc31-d99f-49c8-b466-7b2c7b4c281f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 52.07 92.71 0)
 			(effects
 				(font
@@ -19161,7 +17497,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -19176,7 +17512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f329a698-5bf1-466f-a4b0-f49cff765b74")
-		(property "Reference" "C17"
+		(property "Reference" "C6"
 			(at 110.998 184.404 0)
 			(effects
 				(font
@@ -19320,7 +17656,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C17")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19335,7 +17671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5f7893c-ce2e-4c91-8610-b796036b9afa")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR036"
 			(at 161.29 181.61 0)
 			(effects
 				(font
@@ -19385,7 +17721,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "#PWR041")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -19400,7 +17736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6d273dd-6f3d-4138-8548-42472703dd4f")
-		(property "Reference" "C7"
+		(property "Reference" "C19"
 			(at 217.678 134.874 0)
 			(effects
 				(font
@@ -19544,7 +17880,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "C7")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -19552,15 +17888,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 278.13 116.84 0)
+		(at 270.51 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f885bedc-00fa-4fa4-8a57-9b28b23aae4c")
-		(property "Reference" "TP21"
-			(at 279.146 113.538 0)
+		(property "Reference" "TP9"
+			(at 271.526 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19569,7 +17905,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 267.97 113.538 0)
+			(at 260.35 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19578,7 +17914,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 283.21 116.84 0)
+			(at 275.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19587,7 +17923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 116.84 0)
+			(at 275.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19596,7 +17932,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19605,7 +17941,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19614,7 +17950,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19623,7 +17959,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19632,7 +17968,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19641,7 +17977,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19650,7 +17986,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19659,7 +17995,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19668,7 +18004,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19677,7 +18013,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19686,7 +18022,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 278.13 116.84 0)
+			(at 270.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19700,7 +18036,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP21")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -19708,15 +18044,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 278.13 135.89 0)
+		(at 270.51 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f892fcab-205f-4645-b2f6-02a157c5f290")
-		(property "Reference" "TP24"
-			(at 279.146 132.588 0)
+		(property "Reference" "TP12"
+			(at 271.526 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19725,7 +18061,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 267.97 132.588 0)
+			(at 260.35 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19734,7 +18070,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 283.21 135.89 0)
+			(at 275.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19743,7 +18079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 135.89 0)
+			(at 275.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19752,7 +18088,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19761,7 +18097,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19770,7 +18106,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19779,7 +18115,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19788,7 +18124,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19797,7 +18133,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19806,7 +18142,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19815,7 +18151,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19824,7 +18160,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19833,7 +18169,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19842,7 +18178,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 278.13 135.89 0)
+			(at 270.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19856,7 +18192,7 @@
 		(instances
 			(project "GreenNet"
 				(path "/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-					(reference "TP24")
+					(reference "TP12")
 					(unit 1)
 				)
 			)

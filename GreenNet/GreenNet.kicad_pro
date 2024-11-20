@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -247,12 +247,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "lib_symbol_issues|-2667000|812800|1de1a42f-f062-4e5c-b6a2-ea469445be84|00000000-0000-0000-0000-000000000000|||",
-      "lib_symbol_issues|-3086100|812800|3c7a675a-5a6e-4dd3-85b7-83532b81f1a3|00000000-0000-0000-0000-000000000000|||",
-      "lib_symbol_issues|266700|660400|cf35a601-6fad-440a-b899-3de90d16cded|00000000-0000-0000-0000-000000000000|||",
-      "multiple_net_names|266700|876300|f6c3ace7-9cc3-46ce-900f-3110dac58c17|ddde3042-62fa-48ed-acfc-b4339e781a7e|/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874|/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874|/189669a5-f2fc-4cde-9413-8df80c557655/3bb1724a-9783-4669-873d-86bb73735874"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -511,14 +506,14 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2919,
+        "diff_pair_width": 0.36,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.36,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
