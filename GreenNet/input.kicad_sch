@@ -4669,7 +4669,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 124.46) (xy 252.73 124.46)
+			(xy 237.49 124.46) (xy 248.92 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4749,7 +4749,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 130.81) (xy 270.51 129.54)
+			(xy 273.05 130.81) (xy 273.05 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4769,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 143.51) (xy 270.51 143.51)
+			(xy 259.08 143.51) (xy 273.05 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5059,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 137.16) (xy 270.51 135.89)
+			(xy 273.05 137.16) (xy 273.05 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5199,7 +5199,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 130.81) (xy 252.73 129.54)
+			(xy 248.92 130.81) (xy 248.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5639,7 +5639,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 137.16) (xy 252.73 135.89)
+			(xy 248.92 137.16) (xy 248.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 149.86) (xy 270.51 148.59)
+			(xy 273.05 149.86) (xy 273.05 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5699,7 +5699,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 130.81) (xy 270.51 130.81)
+			(xy 259.08 130.81) (xy 273.05 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5829,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 124.46) (xy 252.73 123.19)
+			(xy 248.92 124.46) (xy 248.92 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5979,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 149.86) (xy 270.51 149.86)
+			(xy 259.08 149.86) (xy 273.05 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6009,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 130.81) (xy 252.73 130.81)
+			(xy 237.49 130.81) (xy 248.92 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6029,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 137.16) (xy 252.73 137.16)
+			(xy 237.49 137.16) (xy 248.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6219,7 +6219,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 143.51) (xy 270.51 142.24)
+			(xy 273.05 143.51) (xy 273.05 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6429,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 137.16) (xy 270.51 137.16)
+			(xy 259.08 137.16) (xy 273.05 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6519,7 +6519,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 124.46) (xy 270.51 124.46)
+			(xy 259.08 124.46) (xy 273.05 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6689,7 +6689,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 149.86) (xy 252.73 149.86)
+			(xy 237.49 143.51) (xy 248.92 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6709,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 124.46) (xy 270.51 123.19)
+			(xy 273.05 124.46) (xy 273.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6769,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 149.86) (xy 252.73 148.59)
+			(xy 248.92 143.51) (xy 248.92 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7278,7 +7278,7 @@
 		(uuid "fa0d2156-5b7c-4b5d-9847-91bc20541771")
 	)
 	(label "SOIL_EN"
-		(at 242.57 149.86 0)
+		(at 237.49 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7289,7 +7289,7 @@
 		(uuid "02fb0da6-d31e-412b-9375-a693a538437c")
 	)
 	(label "UART_TXD"
-		(at 242.57 124.46 0)
+		(at 237.49 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7322,7 +7322,7 @@
 		(uuid "1089989c-5b8f-4903-a339-115a2dc42889")
 	)
 	(label "USB_UART_D-"
-		(at 256.54 137.16 0)
+		(at 259.08 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7399,7 +7399,7 @@
 		(uuid "3c246f7a-5c00-4274-9059-64da2aeac80b")
 	)
 	(label "USB_D-"
-		(at 256.54 124.46 0)
+		(at 259.08 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7421,7 +7421,7 @@
 		(uuid "3f0fd210-1114-4c41-b1ed-b339a6243f85")
 	)
 	(label "USB_UART_D+"
-		(at 256.54 143.51 0)
+		(at 259.08 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7432,7 +7432,7 @@
 		(uuid "3f7b82d6-4d6c-4384-b98f-8e46348e2fef")
 	)
 	(label "SOIL_SENSE"
-		(at 256.54 149.86 0)
+		(at 259.08 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7443,7 +7443,7 @@
 		(uuid "45b51760-79be-4011-bc0a-56b1c4ffbae9")
 	)
 	(label "UART_RXD"
-		(at 241.3 130.81 0)
+		(at 237.49 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7531,7 +7531,7 @@
 		(uuid "803f5b32-50e5-4487-8a79-63c233bc2c06")
 	)
 	(label "USB_D+"
-		(at 256.54 130.81 0)
+		(at 259.08 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7542,7 +7542,7 @@
 		(uuid "81d83942-d6f8-457e-8d3a-583004382fbc")
 	)
 	(label "VBUS"
-		(at 242.57 137.16 0)
+		(at 237.49 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7866,7 +7866,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 270.51 148.59 0)
+		(at 273.05 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7874,7 +7874,7 @@
 		(dnp no)
 		(uuid "022853c4-f931-4859-93fe-468050c56b23")
 		(property "Reference" "TP13"
-			(at 271.526 145.288 0)
+			(at 274.066 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,7 +7883,7 @@
 			)
 		)
 		(property "Value" "SOIL_SENSE"
-			(at 258.318 145.288 0)
+			(at 260.858 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +7892,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 275.59 148.59 0)
+			(at 278.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +7901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 148.59 0)
+			(at 278.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,7 +7910,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +7919,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +7928,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +7937,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,7 +7946,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,7 +7955,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +7964,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7973,7 +7973,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,7 +7982,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,7 +7991,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8000,7 +8000,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 270.51 148.59 0)
+			(at 273.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +8152,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 252.73 135.89 0)
+		(at 248.92 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8160,7 +8160,7 @@
 		(dnp no)
 		(uuid "092694e4-17fc-4096-9673-c53d12ca96c6")
 		(property "Reference" "TP7"
-			(at 253.746 132.588 0)
+			(at 249.936 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8169,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 246.634 132.588 0)
+			(at 242.824 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8178,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 257.81 135.89 0)
+			(at 254 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 135.89 0)
+			(at 254 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8196,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8205,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8214,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8223,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8232,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8241,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8250,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8259,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +8268,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +8277,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8286,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 252.73 135.89 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,7 +10220,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 270.51 129.54 0)
+		(at 273.05 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10228,7 +10228,7 @@
 		(dnp no)
 		(uuid "399b9809-21e1-429d-8bec-0051fb7085d6")
 		(property "Reference" "TP10"
-			(at 271.526 126.238 0)
+			(at 274.066 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,8 +10236,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 260.35 126.238 0)
+		(property "Value" "USB_D+"
+			(at 264.414 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10246,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 275.59 129.54 0)
+			(at 278.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +10255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 129.54 0)
+			(at 278.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10264,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +10273,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +10282,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,7 +10291,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10300,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,7 +10309,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10318,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10327,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10336,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10345,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,7 +10354,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +10777,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 252.73 129.54 0)
+		(at 248.92 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10785,7 +10785,7 @@
 		(dnp no)
 		(uuid "4474ac51-2a28-47a2-8253-e3e9f56c647d")
 		(property "Reference" "TP6"
-			(at 253.746 126.238 0)
+			(at 249.936 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,8 +10793,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 242.57 126.238 0)
+		(property "Value" "UART_RXD"
+			(at 238.506 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +10803,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 257.81 129.54 0)
+			(at 254 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +10812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 129.54 0)
+			(at 254 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +10821,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,7 +10830,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,7 +10839,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10848,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,7 +10857,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,7 +10866,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,7 +10875,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,7 +10884,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +10893,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10902,7 +10902,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10911,7 +10911,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 252.73 129.54 0)
+			(at 248.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,7 +11764,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 270.51 135.89 0)
+		(at 273.05 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11772,7 +11772,7 @@
 		(dnp no)
 		(uuid "5c6d7f54-d960-446a-81c0-d51e2b77c0b7")
 		(property "Reference" "TP11"
-			(at 271.526 132.588 0)
+			(at 274.066 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11780,8 +11780,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 260.35 132.588 0)
+		(property "Value" "USB_UART_D-"
+			(at 258.572 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,7 +11790,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 275.59 135.89 0)
+			(at 278.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +11799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 135.89 0)
+			(at 278.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,7 +11808,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +11817,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11826,7 +11826,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11835,7 +11835,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11844,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,7 +11853,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,7 +11862,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11871,7 +11871,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +11880,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,7 +11889,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11898,7 +11898,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 270.51 135.89 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,7 +12351,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 252.73 123.19 0)
+		(at 248.92 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12359,7 +12359,7 @@
 		(dnp no)
 		(uuid "672ba0b9-4a13-4902-a04d-8bacbee2ee55")
 		(property "Reference" "TP5"
-			(at 253.746 119.888 0)
+			(at 249.936 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,8 +12367,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 242.57 119.888 0)
+		(property "Value" "UART_TXD"
+			(at 238.76 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12377,7 +12377,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 257.81 123.19 0)
+			(at 254 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12386,7 +12386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 123.19 0)
+			(at 254 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12395,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,7 +12404,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12413,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,7 +12422,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12431,7 +12431,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12440,7 +12440,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,7 +12449,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12458,7 +12458,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12467,7 +12467,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,7 +12476,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,7 +12485,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 252.73 123.19 0)
+			(at 248.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +13119,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 252.73 148.59 0)
+		(at 248.92 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13127,7 +13127,7 @@
 		(dnp no)
 		(uuid "731ba415-c95c-48da-9110-ae3b9d74b26e")
 		(property "Reference" "TP8"
-			(at 253.746 145.288 0)
+			(at 249.936 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13136,7 +13136,7 @@
 			)
 		)
 		(property "Value" "SOIL_EN"
-			(at 243.84 145.288 0)
+			(at 240.03 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13145,7 +13145,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 257.81 148.59 0)
+			(at 254 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,7 +13154,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 148.59 0)
+			(at 254 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13163,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +13172,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +13181,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,7 +13190,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13199,7 +13199,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +13208,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +13217,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,7 +13226,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +13235,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13244,7 +13244,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +13253,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 252.73 148.59 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17888,7 +17888,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 270.51 123.19 0)
+		(at 273.05 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17896,7 +17896,7 @@
 		(dnp no)
 		(uuid "f885bedc-00fa-4fa4-8a57-9b28b23aae4c")
 		(property "Reference" "TP9"
-			(at 271.526 119.888 0)
+			(at 274.066 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17904,8 +17904,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 260.35 119.888 0)
+		(property "Value" "USB_D-"
+			(at 264.414 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17914,7 +17914,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 275.59 123.19 0)
+			(at 278.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17923,7 +17923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 123.19 0)
+			(at 278.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17932,7 +17932,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17941,7 +17941,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17950,7 +17950,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17959,7 +17959,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17968,7 +17968,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17977,7 +17977,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17986,7 +17986,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17995,7 +17995,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18004,7 +18004,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18013,7 +18013,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18022,7 +18022,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 270.51 123.19 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18044,7 +18044,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 270.51 142.24 0)
+		(at 273.05 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18052,7 +18052,7 @@
 		(dnp no)
 		(uuid "f892fcab-205f-4645-b2f6-02a157c5f290")
 		(property "Reference" "TP12"
-			(at 271.526 138.938 0)
+			(at 274.066 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18060,8 +18060,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 260.35 138.938 0)
+		(property "Value" "USB_UART_D+"
+			(at 258.826 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18070,7 +18070,7 @@
 			)
 		)
 		(property "Footprint" "AA_TestPoints:RCWCTE"
-			(at 275.59 142.24 0)
+			(at 278.13 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18079,7 +18079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 142.24 0)
+			(at 278.13 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18088,7 +18088,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18097,7 +18097,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18106,7 +18106,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18115,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18124,7 +18124,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18133,7 +18133,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18142,7 +18142,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18151,7 +18151,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18160,7 +18160,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18169,7 +18169,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18178,7 +18178,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 270.51 142.24 0)
+			(at 273.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

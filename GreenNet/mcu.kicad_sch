@@ -8173,8 +8173,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 27.94 145.288 0)
+		(property "Value" "S3_EN_RST"
+			(at 26.416 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10044,7 +10044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PERI_SCL"
 			(at 27.94 138.938 0)
 			(effects
 				(font
@@ -11855,7 +11855,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "S3_BOOT"
 			(at 27.94 151.638 0)
 			(effects
 				(font
@@ -12170,7 +12170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PERI_SDA"
 			(at 27.94 132.588 0)
 			(effects
 				(font
